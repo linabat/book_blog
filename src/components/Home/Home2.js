@@ -16,16 +16,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              WHO AM <span className="purple"> I </span> ?
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              An undergrad student that constantly loses themselves 
+             <i>
+               <b className="purple"> when I read</b>
+              </i>  
+              <br/>
+              <br />Favorite genres are mostly contained within the realistic fiction genre (with a few exceptions)
               <br />
-              <br />I am fluent in classics like
+              <br />
+              <div class="book_list">
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">🤍 Romance</b>
               </i>
+              <br />
+              <i>
+                <b className="purple">📜 Historical Fiction</b> 
+              </i>
+              <br />
+              <i>
+                <b className="purple">💡 Memoirs</b> 
+              </i>
+              <br />
+              <i>
+                <b className="purple">⏩ Short Stories</b> 
+              </i>
+              <br />
+              <i>
+                <b className="purple">⏩ Young Adult</b> 
+              </i>
+              </div>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -38,18 +60,36 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              The goal of this website is to share my book updates with you all. I've been wanting to creating this page for 
+              quite sometime at this point and have finally done it! 🎉 As an avid reader, I've read so many books at this point.
+              I will share my raw thoughts, opinions, and ratings of the books I've read. Unfortunatley, this list right now is cut 
+              short because I only started reviewing book at the end of 2022 -- but do not fear, I will keep you constantly in the loop 
+              with my latest reads! 
+              <br />
+              <br />
+              Here you gooo...some of my fun reading facts! 
+              <br />
+              <div class="book_list">
+                <i>
+                <b className="purple">◌ I read 85 books during 2020</b> (had a ton of spare time during the pandemic)
+                </i>
+                <br />
+                <i>
+                  <b className="purple">◌ My obsession with reading started in middle school and grew every since. </b>
+                </i>
+                <br />
+                <i>
+                  <b className="purple">◌ Ultimate favorite genre is Romance</b>
+                </i>
+                <br />
+                <i>
+                  <b className="purple">◌ Goodreads is my favorite app</b>
+                </i>
+                <br />
+                <i>
+                  <b className="purple">◌ Most of my books are E-books</b>
+                </i>
+              </div>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,48 +101,15 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://www.goodreads.com/user/show/130208620-lina"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                  <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/goodreads_logo_icon_145237.png" alt="goodreads" style={{ width: '80%', height: 'auto' }}/>
                 </a>
               </li>
             </ul>

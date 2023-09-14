@@ -398,6 +398,10 @@ button:focus {
   color: #700c86 !important;
 }
 
+.book_list{
+  margin-left:5%;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
