@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 WELCOME TO
-                <strong className="main-name"> Thought Dump (aka Book Blog)</strong>
+                <strong className="main-name"> Thought Dump</strong> (aka Book Blog)
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
