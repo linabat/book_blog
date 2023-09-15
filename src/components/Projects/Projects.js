@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import graysonVow from "../../Assets/Projects/grayson_vow.jpeg";
 
 function Projects() {
   return (
@@ -19,18 +19,29 @@ function Projects() {
         <p style={{ color: "white" }}>
           Featuring my original thoughts regarding the books I've read
         </p>
+
+        <br /> 
+        <br/> 
+        <br /> 
+        <h3 style={{ color: "white", textAlign: "left"}}>
+          Romance
+        </h3>
+        <br />
+        <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Fake Marriage
+        </h5>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={graysonVow}
               isBlog={false}
-              title="Chatify"
-              author="INSERT HERE"
-              description="Personal Chat Room or Workspace"
-              rating = "⭐⭐⭐⭐⭐"
-              dateFinished = "09/14/23"
-              review = "let's see if this actually works"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Grayson's Vow"
+              author="Mia Sheridan"
+              description="Marriage of convenience where the female lead needs to marry to gain her inheritance...she chooses to trust a convicted felon."
+              rating = "⭐⭐⭐⭐"
+              dateFinished = "08/20/2022"
+              review = "After reading Archer's Voice, I had set the bar higher for this book, thinking it would be equivalent or close to equivanlence of the amazingness of that book. However, I was dissapointed. The plot was pretty solid, good character development, and the playfullness between the hero and heroine was nice, however, somethings just didn't sit right with me. I think it came to a point where the plot was being dragged out too long and when the hero and heroine do finally acknowlege there feeling for each other and talk about it, the plot stretches out from that point until the next big event. I have to say, there was a decent balance between plot and spice, if anything the spice level could have been higher but that's alrigt. I like Gray's personality for the most part, but he seemed too self centeric at some points throughout the book and his character took some time to develop. Kira was alright too. I think with the trauma that she had gone through, the development or more emotion could have been put in at some point, but overally I like her optimistic and bright characer. "
+              ghLink="https://www.goodreads.com/book/show/86508524-grayson-s-vow?from_search=true&from_srp=true&qid=3QSXRdGKrw&rank=1"
             />
           </Col>
 
@@ -84,7 +95,39 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
+
+          <h3 style={{ color: "white", textAlign: "left"}}>
+          Historical Fiction 
+          </h3>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={emotion}
+                isBlog={false}
+                title="Face Recognition and Emotion Detection"
+                description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+                Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+                ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              />
+            </Col>
+
+
+          <h3 style={{ color: "white", textAlign: "left"}}>
+          History
+          </h3>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={emotion}
+                isBlog={false}
+                title="Face Recognition and Emotion Detection"
+                description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+                Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+                ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              />
+            </Col>
+
         </Row>
+
+      
       </Container>
     </Container>
   );
