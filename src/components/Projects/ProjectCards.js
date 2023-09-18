@@ -45,6 +45,7 @@ function ProjectCards(props) {
 
         {"\n"}
         {"\n"}
+        {"\n"}
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "Goodreads"}
