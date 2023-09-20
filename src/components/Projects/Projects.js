@@ -27,8 +27,6 @@ function Projects() {
         <p style={{ color: "white" }}>
           Featuring my original thoughts regarding the books I've read
         </p>
-
-        <br /> 
         <br/> 
         <br /> 
         <h3 style={{ color: "white", textAlign: "left"}}>
@@ -233,10 +231,6 @@ function Projects() {
             />
           </Col>
 
-
-
-          
-
           <h3 style={{ color: "white", textAlign: "left"}}>
           History
           </h3>
@@ -253,7 +247,6 @@ function Projects() {
 
         </Row>
 
-      
       </Container>
     </Container>
   );

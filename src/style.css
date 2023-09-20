@@ -449,7 +449,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: rgb(100 150 210) !important;
 }
 /* --------- */
 /* Projects */

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { IoMdBook } from "react-icons/io";
 
 function AboutCard() {
   return (
@@ -8,33 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            To better understand what I've been reading and explore any of <span className="purple">reading trends </span>
+            that are taking place (though they may be obvious), here are some <span className="purple">fun visualizations </span>  
+            and statistics.<br /> <br /> I pulled all of this data directly from my Goodreads account and will continue 
+            to update everything pesent over time. You can find all the data and the code for how I collected it later on. Will come 
+            back and add the link. 
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
-            <br />
-            <br />
+            <br />  
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <IoMdBook /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <IoMdBook /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <IoMdBook /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(100 150 200)" }}>
+            "Reading is a moment to get lost in another world - treasure it."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Lina Battikha</footer>
         </blockquote>
       </Card.Body>
     </Card>
