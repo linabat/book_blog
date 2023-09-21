@@ -14,7 +14,23 @@ import darling_venmon from "../../Assets/Projects/darling_venmon.jpeg";
 import terms_conditions from "../../Assets/Projects/terms_conditions.jpeg";
 import right_move from "../../Assets/Projects/right_move.jpeg";
 import twisted from "../../Assets/Projects/twisted.jpeg";
-
+import happy_place from "../../Assets/Projects/happy_place.jpeg";
+import final_offer from "../../Assets/Projects/final_offer.jpeg";
+import ruthless_people from "../../Assets/Projects/ruthless_people.jpeg";
+import by_a_thread from "../../Assets/Projects/by_a_thread.jpeg";
+import corrupted_chaos from "../../Assets/Projects/corrupted_chaos.jpeg";
+import little_burden from "../../Assets/Projects/little_burden.jpeg";
+import destroyed from "../../Assets/Projects/destroyed.jpeg";
+import lies_mischief from "../../Assets/Projects/lies_mischief.jpeg";
+import luna_lie from "../../Assets/Projects/luna_lie.jpeg";
+import rebel_redemption from "../../Assets/Projects/rebel_redemption.jpeg";
+import bright_side from "../../Assets/Projects/bright_side.jpeg";
+import in_five_years from "../../Assets/Projects/in_five_years.jpeg";
+import misconduct from "../../Assets/Projects/misconduct.jpeg";
+import educated from "../../Assets/Projects/educated.jpeg";
+import last_thing from "../../Assets/Projects/last_thing.jpeg";
+import used_to_be from "../../Assets/Projects/used_to_be.jpeg";
+import silent_patient from "../../Assets/Projects/silent_patient.jpeg";
 
 
 function Projects() {
@@ -217,33 +233,285 @@ function Projects() {
             />
           </Col>
 
-          <h3 style={{ color: "white", textAlign: "left"}}>
-          Historical Fiction 
-          </h3>
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Second Chance Love
+          </h5>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              imgPath={happy_place}
+              isBlog={false} 
+              title="Happy Place"
+              author="Emily Henry"             
+              description="Harriet and Wyn, a couple who broke up but haven't told their friends, navigate a weeklong vacation together with their close-knit group, concealing their lingering feelings and putting on a facade to protect their friends' hearts as the beloved Maine cottage they visit every year goes up for sale."
+              rating="⭐⭐⭐⭐"
+              dateFinished="09/08/2023"
+              review="3.5 stars rounding up to 4. It's crazy to me that I've read well over 200 young adult/romance books over the past few years, but this is my first romance book that was second chance lovers. I was always stayed away from this trope just cause I didn't find the appeal...wouldn't be witnessing romane between the main characters happen geniunely, but rather see a relationship that can try to be rekindled...not sure if there will actually be an HEA. But, I have to say, that this book did a good job about changing my perspective on this trope. I enjoyed reading this book and geniuenly seeing the love between Harriet and Wyn (though the names are a bit weird in my opinion). The plot was good and the side characters were good, but I felt like there should have been more...something was lacking...possibly the lack of closeness between the main friends in throughout the novel. There was some repetition in throughout the plot, and it alternated between past and present. I did appreciate how the present poritions of the book were genuinely longer (made the alternative changing times good). There was a lot to unpack at the end of the book but I think the relationship growth the was good, sometimes a bit random. This was my first Emily Henry book and it was very likely that would read another book by them."
+              ghLink="https://www.goodreads.com/book/show/61718053-happy-place?ref=nav_sb_ss_1_11"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={final_offer}
+              isBlog={false} 
+              title="Final Offer"
+              author="Lauren Asher"             
+              description="The bad boy with a troubled past and a secret love for his childhood friend Lana Castillo, who unexpectedly returns to her life when he tries to sell their shared family lake house."
+              rating="⭐⭐⭐"
+              dateFinished="09/13/2023"
+              review="The bad boy with a troubled past and a secret love for his childhood friend Lana Castillo, who unexpectedly returns to her life when he tries to sell their shared family lake house."
+              ghLink="https://www.goodreads.com/book/show/61681786-final-offer?ref=nav_sb_ss_1_11"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Mafia
+          </h5>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ruthless_people}
+              isBlog={false} 
+              title="Ruthless People"
+              author="J.J. McAvoy"             
+              description="Melody and Liam, two fierce crime bosses with a complex and arranged marriage, must work together to navigate the evolving mafia world while maintaining their façade of power, family, and respect."
+              rating="⭐"
+              dateFinished="01/24/2023"
+              review="DNF - once again another 1 star book that I couldn't bring myself to finish. I did not like this book at all and really didn't like the characters. This arange marriage book was just too much of the characters trying to over power one another...and was just so not realistic. The main guy fell in love with the girl within 4 days of knowing each other..umm what...and the girl just made me mad. They both had a really really large fascination with killing and murdering which makes me concerned for the author themselves. I went into this book thinking that it's going to be a good read...literally took me 3 hours to find a book and decided on this on...was very a much a bad move. I was catfished once again by TikTok videos and then thought it would actually live up to the expectations this time because of good ratings on Goodreas, naive thoughts, I know. The plot was semi-interesting, but I had an incredibly hard to actually connecting with the characters, especially with the fact that they just kept on killing for the sake of it...no thank you. Anyway I tried really hard on this one, but couldn't finish and don't plan on it."
+              ghLink="https://www.goodreads.com/book/show/59114267-juniper-hill?from_search=true&from_srp=true&qid=MZ5qYCQwST&rank=1"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Slowburn Romance
+          </h5>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={luna_lie}
+              isBlog={false} 
+              title="Luna and the Lie"
+              author="Marianna Zapata"             
+              description="Luna Allen has a closet full of secrets she's determined to keep hidden, even if they involve her less-than-friendly boss, as she believes that despite life's imperfections, everything has worked out just the way it was meant to be."
+              rating="⭐⭐⭐⭐⭐"
+              dateFinished="01/31/2023"
+              review="This was my second reading this book and I was not dissapointed...not shocking thoughh because I am very much obssesed with Marianna Zapata and her books. Re-reading this again, I would give it a 4 stars just cause I think it dragged out way too long and then I almost and to force myself to continue at some points just because the slow burn was too much of a slow burn. Regardless of this, I enjoyed rereading this book, something I don't usually do, but desperate times call for desperate measures (my streak of find good books has been an all time low). I loved the characters in this book, Rip and Luna and really enjoyed their dynamic and how a lot of the book actually focused on the growth of their relationship together. Also the side characters of this book were pretty good. It's one of those kind of books that you can easily visualize in your head while reading which is the best part of reading. I do wish that some of the plot was dedicated towards the development of the relationship between Luna and her sisters but that's okay. Favorite part of the book is when Luna was able to help Rip get out of the aftershock after the car accident. Another favorite moment was when Rip helped Luna and stayed at her house when her cousin broke into her house and wrecked it. Definitley recommend as a first time read."
+              ghLink="https://www.goodreads.com/book/show/42883009-luna-and-the-lie?ref=nav_sb_ss_1_16"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Workplace Romance
+          </h5>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={by_a_thread}
+              isBlog={false} 
+              title="By a Thread"
+              author="Lucy Score"             
+              description="Dominic can't decide if he wants to intimidate or kiss Ally, the woman he got fired and who now works in his office, but as their personalities clash, sparks fly in this steamy workplace romantic comedy where Dominic aims to solve the puzzle of Ally's secret while resisting the temptation to take advantage of his position."
+              rating="⭐"
+              dateFinished="08/20/2023"
+              review="I'm writing this review a week later, and quite honestly, I've forgetten most of the plot of the book. There was nothing significant that stuck with me and just in general this book was meh. They were more physically attracted to each other rather than actual character personality substance which is definitely a red flag for me in a book. Dominic got Ally fired then hired her, developed a crush on her, and we all know what happens from there. It was just very much a cliche of a book. I love books that make me stare at a wall after I've finished the last page and just contemplate everything and read, and this book was definitely so far from allowing me to reach that stage. The plot was slow moving and there was a quite a bit of repetition throughout the plot, which I am not a fan of at all."
+              ghLink="https://www.goodreads.com/book/show/48677178-by-a-thread?from_search=true&from_srp=true&qid=SR1BxbTrRZ&rank=1"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Children in Tow 
+          </h5>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rebel_redemption}
+              isBlog={false} 
+              title="The Rebel's Redemption"
+              author="Lexi Foss"             
+              description="In this tale of rebels and regrets, the protagonist faces a moment of relief upon hearing of Jean Perry's passing, hoping to mend a significant mistake from the past. However, a new challenge arises with Jean's sister, Avery, and the story takes a twist when the protagonist must play house, all while resisting old feelings and embracing a seductive game of observation, as not all rebels may find redemption."
+              rating="⭐⭐⭐"
+              dateFinished="01/02/2023"
+              review="This book was probably the only book that I've ever read with such low review numbers. I found it on tik tok and decided to give a try because of the description was quite intriguing. I really liked the characters and all of them seemedh genuine and especially enjoyed the character development between Jaime (little boy) and his dad (Wyatt). I did, however, think that the book was a bit odd in the sense that no right guy would approach the aunty (Avery) and make sexual references and get in personal space all within the span of a couple of hours of knowing each other. It was just weird, very sudden, and weakened the development of their relationship. As a result, I was at a loss about whether the development of their relationship was sparked by genuine personality interests or sexual interests. Also, I would like to add that the book timeline was very flat, in the sense that the climax was not really a climax and it just seemed like a normal conversation...not quite sure how I feel about that. I would say this book is worth a shot, however, not quite sure if I would go back and read any of the other books in this series...just seems to predictable, rushed sexually, and plot was not developed quite enough."
+              ghLink="https://www.goodreads.com/book/show/50841664-the-rebel-s-redemption?ref=nav_sb_ss_2_23"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Heart Breaking
+          </h5>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bright_side}
+              isBlog={false} 
+              title="Bright Side"
+              author="Kim Holden"             
+              description="Kate Sedgwick's unconventional life takes an unexpected turn when she falls in love with Keller Banks in a small town, but their love story is shadowed by secrets that have the power to both heal and shatter them, ultimately challenging their resilience and belief in love."
+              rating="⭐⭐⭐⭐⭐"
+              dateFinished="01/02/2023"
+              review="This book very much got me. To be fair, it took me forever to read it because of the little time I had to sit down and continue the book, but when I did read it, it didn't disappoint. Not going to lie, the beginning of the book was a bit slow for me, but once I started, it was hard to stop. I enjoyed the writing of the book and how realisitc the conversations and characters were. Katie and Gus's dynamic was very well written and made me sort of jealous - I want that kind of friendship. Katie was a very loveable character and the author did an extremely good job of making her relatable and realistic. My heart hurt when her secret was spilled and reading about how all the other side characters had to handle the changes in her life. I would have wanted her to have more time to buid her relationship with Keller and his daughter but ugh, I guess that was part of the point...to keep us wanting more and being able to get to it. Overally I would recomment -- definitely a solid 4.5 but I rounded up because of the way I couldn't fall asleep because of everything that happened in the book."
+              ghLink="https://www.goodreads.com/book/show/22669832-bright-side?ref=nav_sb_ss_5_6"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={in_five_years}
+              isBlog={false} 
+              title="In Five Years"
+              author="Rebecca Serle"             
+              description="Manhattan lawyer Dannie Kohan has her life perfectly planned until a strange vision on the night of her engagement propels her five years into the future, where she finds herself in a different life. Confused and dismissing it as a dream, she moves on, but when she meets the same man from her vision years later, her world unravels, leading to a tale of love, friendship, and the unpredictability of destiny. SPOILERS IN REVIEW"
+              rating="⭐⭐⭐⭐⭐"
+              dateFinished="01/15/2023"
+              review="This book was something else. I stayed up until 3:30am to finish. I'm not going to lie it took a bit of effort for me to start the book and force myself to continue reading it, but once the plot starts picking I couldn't stop. The whole time while reading the book, the author set up the plot so that I had one idea about how the ending will turn out and the all of sudden I start to question everything. I started to tear up several times at the end of the book and once I reached the last few pages my hands were shaking. This book shook me so much that as I write this, I feel the raw options I was feeling a week ago when I finished this amazing novel. The plot twist alone deserves the 5 stars. However, with everything else taken into account and if it was an option on Goodreads, I would have given it a 4.5. This is simply because the main character bugged me a bit just cause she seemed too neat (but I definitely think that was the author's intentions). The whole time, I was thinking that she would end up with Greg in a happily ever after manner...that did not happen. I didn't like David so I didn't event consider that there was potential that something might happen to Bella and that's how  the two end up getting together. I went into this book thinking it was a typical romance book with a bit of paranorma when she saw the vision from 5 years in advance, but it was definitely not that. The emotions are hitting right now just thinking about how Bella died at the end, but how she had everything sorted out for the main character (I'm forgettng her name), and I don't think the rush of these emotions will change. Definitely a book I recommend (especially hard cover too -- something I hadn't done in a while)."
+              ghLink="https://www.goodreads.com/book/show/50093704-in-five-years?ref=nav_sb_noss_l_13"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Dark 
+          </h5>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={corrupted_chaos}
+              isBlog={false} 
+              title="Corrupted Chaos"
+              author="Shain Rose"             
+              description="Cade Armanelli, an infamous billionaire hacker, and his determined employee find themselves sharing a cabin and a bed during a cybersecurity team retreat. Despite his antisocial and ruthless reputation, she discovers his prowess extends beyond hacking. Yet, she must remain focused on her job, even if it means dividing the bed with a red line to keep their personal lives from interfering with their mission."
+              rating="⭐⭐"
+              dateFinished="01/16/2023"
+              review="I was cat-fished into reading this book. I was scrolling through tik tok and a booktok clip came up about a specific scene that intrigued me. Looking for the title of said book, I fell across this book and decided to read it. A lot of the synonposis was an overlap. As I was reading this book, I was waiting for the scene that I had seen to come up...by the end of the book during the epilogue I realized my mistake...definitely the wrong book. This book was just extremely meh. They claim to love each other, but this love was built pure on sexual tension and hate. Cade was an extremely alpha male and was just very weird with his sexual actions and Izzy was literally just subjecting herself the whole time. Also, this book was extremely repetitive. Had it not been for my pure boredom and desire to actually find the scene I saw on Tik Tok, this book would have likely been a DNF. The end was predictable and just very much ughhh. I truly don't think that they loved each other, but rather just like how they made each other fell. The writing style was fine, but the plot was just not good. I'll be taking a break from this author for the time-being."
+              ghLink="https://www.goodreads.com/book/show/61757380-corrupted-chaos?ref=nav_sb_ss_1_14"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={little_burden}
+              isBlog={false} 
+              title="His Pretty Little Burden"
+              author="Nicci Harris"             
+              description="Not a good book at all. Can't provide description because plot was not clear. No objective."
+              rating="⭐"
+              dateFinished="01/16/2023"
+              review="DNF - very much one of the worst books that I've ever read. I saw a catfish video of it on Tik Tok and it sounded entertaining...lies. I hated it and couldn't bring myself to read more than half the book. The girl is 18 and the guy is like 40 years old, who is married and has a mistress and is obviously preying on the girl. A very very weird book and greatly repetitive. The main guy got off by command and pretty much grooming the 18 year old, and the 18 year old was just adsfkj;kals. Not only were the characters horrible, but the writing was just so repetitive and so detailed with random stuff that are not important. Did not like it all. Would honeslty give it a 0 starts if I could but a 1 for effort of the author trying...not a good try by still a try. Do not read."
+              ghLink="https://www.goodreads.com/book/show/60307542-his-pretty-little-burden?ref=nav_sb_ss_1_25"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={destroyed}
+              isBlog={false} 
+              title="Destroyed"
+              author="Pepper Winters"             
+              description="Two individuals with complicated lives and their own secrets collide, igniting a passionate and dangerous connection that threatens to unravel everything they've been hiding."
+              rating="⭐"
+              dateFinished="3/20/2022"
+              review="DNF - This book was very weird. He laid eyes on her, starting talking down to her and being extremely misogynistic and literally just took it in. I barely started reading the book but she talked about being alpha women which I’m all about, but they are subject to the wants of the hero which is extremely weird. Long story short, I started reading the book and didn't like it so I skipped to the end to see what happens and thank God I didn’t read the complete book. I was extremely uncomfortable in one of the last scenes as I understood the parts that I missed and how she became his carrier (which makes no sense whatsoever) and really weird. It was paranormal and made me stressed, which is not a fun feeling especially when I’m taking time to read the book to distress myself from the craziness in myself. So no thank you."
+              ghLink="https://www.goodreads.com/book/show/60307542-his-pretty-little-burden?ref=nav_sb_ss_1_25"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lies_mischief}
+              isBlog={false} 
+              title="In Fury Lies Mischief"
+              author="Amo Jones"             
+              description="Was not a fan of this book. To be honest, I went in reading this book thinking I would like it because the cover looked nice (ik don’t judge) and the synopsis of the book seemed good and edgy. However, barely a few pages in I was very lost. There were things that were mentioned that I had no idea what was meant by it. Although I didn’t read the first book of the series, this could have been read as a standalone, without a lot of confusion. I genuinely had to push myself to continue reading the book. Why you may ask? The writing itself was good, although the plot was on the other end of the spectrum. The spice and tension between the two main characters were good - that’s as far as it went. Plot was confusing, scenes felt like they were repeated and it seemed like the only reason that the hero was attracted to the heroine in the first place was because of physical appearance and nothing else. Also, any time they had a fight, they would somehow end up doing the dirty, and then afterwards everything would be weird again…not sure how this works. True rating of the book would be a 2.5, but since I enjoyed the author’s writing style, rated it a 3 on good reads."
+              rating="⭐⭐"
+              dateFinished="3/19/2022"
+              review="Was not a fan of this book. To be honest, I went in reading this book thinking I would like it because the cover looked nice (ik don’t judge) and the synopsis of the book seemed good and edgy. However, barely a few pages in I was very lost. There were things that were mentioned that I had no idea what was meant by it. Although I didn’t read the first book of the series, this could have been read as a standalone, without a lot of confusion. I genuinely had to push myself to continue reading the book. Why you may ask? The writing itself was good, although the plot was on the other end of the spectrum. The spice and tension between the two main characters were good - that’s as far as it went. Plot was confusing, scenes felt like they were repeated and it seemed like the only reason that the hero was attracted to the heroine in the first place was because of physical appearance and nothing else. Also, any time they had a fight, they would somehow end up doing the dirty, and then afterwards everything would be weird again…not sure how this works. True rating of the book would be a 2.5, but since I enjoyed the author’s writing style, rated it a 3 on good reads."
+              ghLink="https://www.goodreads.com/book/show/60307542-his-pretty-little-burden?ref=nav_sb_ss_1_25"
+            />
+          </Col>
+
+          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Age Gap
+          </h5>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={misconduct}
+              isBlog={false} 
+              title="Misconduct"
+              author="Penelop Douglas"             
+              description="Easton Bradbury, a former tennis player turned teacher, is determined to excel in her new role and forget her past until a parent-teacher meeting with Tyler Marek, a wealthy businessman, introduces an unexpected attraction that challenges her resolve and threatens to reveal secrets best kept hidden.."
+              rating="⭐⭐⭐"
+              dateFinished="12/19/2022"
+              review="Not sure how to feel about this book. The plot was very meh as there wasn't much build up between Tyler and Easton since it was attraction at first sight. It was one of those books where they started to fall in love because of the physically attraction between them rather than fundamnetal values - not a fan. There were a lot of steamy scenes, which honestly took up majority of the book. Without the steamy scenes, the book would maybe 1/3 the length. Quite honestly, I considred multiple times while I was reading the book to just stop and find another more enjoyable novel but I was bored enough that I just continued reading...glad I did only because the ending had a small twist that was surprising but almost expected. I've read multiple Penelop Douglas books because this has to be one of the least favorite ones. Not a book that I find myself drawn too and when I got up and could simply forget about it...that's how you know its definitely less that a 4/5 star book. Anyways...quick summary of the book: young teacher, Easton, meets super rich guy, Tyler at an event. They are attracted to each other but ending up getting disconnected for 6 monthts until they find out that Easton is teaching one of Tyler's son's classes. They had to hide their relationship and do weird stuff in private, but other than that nothing super duper interesting happens. The ending is when Easton's brother, Jack, made her fearful but mimicking a stalker and breaking into her apartment multiple of time...which sucked because I think Jack was one of the better written characters."
+              ghLink="https://www.goodreads.com/book/show/61757380-corrupted-chaos?ref=nav_sb_ss_1_14"
             />
           </Col>
 
           <h3 style={{ color: "white", textAlign: "left"}}>
-          History
+          Memoir
           </h3>
           <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={emotion}
-                isBlog={false}
-                title="Face Recognition and Emotion Detection"
-                description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-                Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-                ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              />
-            </Col>
+            <ProjectCard
+              imgPath={educated}
+              isBlog={false}
+              title="Educated"
+              author="Tara Westover"
+              description="Tara Westover's gripping memoir, she recounts her extraordinary journey from a secluded upbringing in the mountains of Idaho, where she had no formal education and relied on herbalism for medical care, to her determination to self-educate, ultimately earning admission to prestigious universities and discovering a world beyond her family's isolation, but at the cost of severed ties and a quest for self-invention."
+              rating="⭐⭐⭐⭐"
+              dataFinished="05/07/2023"
+              review="To be honest, it feels quite weird to rate a book that as written based someones life. This was my first reading a full memoir novel and it be frank, it took me quite sometime to get through it because I was reading it in very slow chunks and didn't have the usual feeling of needing to read through it. But with that, I really got to absorb the book and what Tara was writing about. The writing was well done. I can't comment on the plot as that is not something that I should judge but, man, if I had a brother like Steve and a father like Tara's dad, I would not have been able to surivie nor grow to the person that Tara did. This a story of self identity and recognition of who and what family is. I've always enjoyed reading about other's lives, which is why it's shocking tha tthis was my first actual memoir, but definitley won't be the last. Tara's story is truly inspriational and as I was reading through it, I felt like a lot of what she was saying can defintely be struggles others relate with for different reasons. Ultimately, her making a decision that was best for her was something that made me happy to read about in the end, especially after reading about all her struggles. "
+              ghLink="https://www.goodreads.com/book/show/35133922-educated?from_search=true&from_srp=true&qid=awWzfBCBz5&rank=1"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left"}}>
+          Mystery
+          </h3>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={last_thing}
+              isBlog={false}
+              title="The Last Thing He Told Me"
+              author="Laura Dave"
+              description="Tara Westover's gripping memoir, she recounts her extraordinary journey from a secluded upbringing in the mountains of Idaho, where she had no formal education and relied on herbalism for medical care, to her determination to self-educate, ultimately earning admission to prestigious universities and discovering a world beyond her family's isolation, but at the cost of severed ties and a quest for self-invention."
+              rating="⭐⭐⭐⭐"
+              dataFinished="09/02/2023"
+              review="3.5 stars rounded up to 4. I've had this book sitting in my 'TBR' list for quite sometime and kept seeing it pop up on my seeing it pop up on my Tik Tok field and displayed in bookstores, so I decided to finally give it a try. Very glad I did so. This book had me hooked - phyiscally couldn't put the book down for hours. It started off incredibly strong but towards 2/3 of the way into the book, it just seems to fall off quite a bit. The plot was suddenly rushed, the secrety coming out could have been a lot more intense and I wasn't completely satisfied with the ended (might have been the intention but I would have genuinely liked a bit more). I would have loved to see more of a relationship build between Hannah and Bailey because that also just seemed rushed. Also, I went in expected there to be a bit more action, so wasn't satisfied with the amount that was actually there. The writing was good, although at times it was a bit repetitive, which slowed down the book a bit. Overally, would recommend this book to someone else as it still was down pretty well over all, but would warn them to not go in with very high expectations as I did."
+              ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left"}}>
+          Mental Health - Fiction 
+          </h3>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={used_to_be}
+              isBlog={false}
+              title="The Way I Used to Be"
+              author="Amber Smith"
+              description="Eden desperately wishes to go back in time to change the course of one fateful day, but instead, she hides her past and pretends not to need anyone or anything. However, as her life unravels, she realizes that the only person who can save her is herself."
+              rating="⭐⭐⭐⭐"
+              dataFinished="12/25/2022"
+              review="This book was very different from what I usually read. It was an good different, but definetly what was not expected. The main girl was raped by her brother's best friend her freshman year of high school and it wasn't until senior year did anyone find out. Fortunately, I have never been in the position she has, so I can't say what would realistically take place. However, there are parts throughout the book that I was frustrated about, mostly because of the fact that it was repetivie in how she was acting out. I understand that this may be part of the build up the story, however, but it was almost too much. There were really no insight to her thoughts and the progression of the book was slow. Also, the way she used people around her made me wonder if this was in fact a realistic information of what would have happened to someone when they are assualted...just wondering how accurate the information is. Overall, althought the writing was really good and the character sympathy path was very solid, the plot was a bit slow, hence the missing star."
+              ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left"}}>
+          Psychological Thriller
+          </h3>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={silent_patient}
+              isBlog={false}
+              title="The Silent Patient"
+              author="Alex Michaelides"
+              description="Alicia Berenson, a seemingly perfect artist, becomes notorious when she shoots her husband without explanation, and criminal psychotherapist Theo Faber is determined to break her silence, setting off a suspenseful and consuming quest to uncover the truth behind the shocking act of violence."
+              rating="⭐⭐⭐⭐"
+              dataFinished="02/12/2023"
+              review="I honestly don't know how to feel about this book. Just finished it a few minutes ago and the word the best describes my feelings would be disturbed. As I was reading the book, I was trying to pinpoint the murderer and try to figure out the conclusion of the bok, but I would have never guessed how it ended. Quite shocked right now but it makes sense. Reflecting back on different parts of the book, I now realized I was confused by some of the odd statements that were made by Theo as I wasn't sure why some of the pieces weren't connecting. Was lowkey creeped out at parts of the book, but it all makes sense now. The author did a spectacular job of leading me on to create possible versions of the ending and then they way the way the connected everything back together at the book was very well done. Realize the time switch at the end was what really allowed for all the pieces to fall into place. Would I recommend this book for anyone to read...no...not because it was bad but more so of how disturbed I'm feeling right now. The plot really does go to show how far people are blinded by their own ego and what they will do to maintain the love they feel in their life...but that fact that he destroyed 3 people's life at the end of the book is unfathonabme. There was something off about Theo from the beginning but didn't realize until how off until I was literally flipping through the last pages of the book."
+              ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
+            />
+          </Col>
 
         </Row>
 
