@@ -27,26 +27,33 @@ def get_product_info(text):
         synop = raw_html.find("div", attrs = {"class": "DetailsLayoutRightParagraph__widthConstrained"})
         synop = synop.find("span", attrs={"class": "Formatted"})
         synop = synop.text
-        print (synop)
 
         # this div has informaiton about the book, including date, pages
         details = raw_html.find("div", attrs = {"class":"FeaturedDetails"})
 
         # retrieving the date the the book was first published
-        date_info = details.find("p", attrs = {"data-testid": "publicationInfo"}).text
-        date = date_info.replace("First published ",'')
+        try:
+            date_info = details.find("p", attrs = {"data-testid": "publicationInfo"}).text
+            date = date_info.replace("First published ",'')
+        except AttributeError:
+            date = "-"
 
         rating_stats = raw_html.find("div", attrs = {"class":"RatingStatistics__meta"})
-        rating_count = rating_stats.find("span", attrs={"data-testid":"ratingsCount"}).text
-        rating_count = rating_count.replace(u'\xa0', u' ')
-        rating_count = rating_count[:rating_count.find(' ')]
-        rating_count = int(rating_count.replace(",",""))
+        try:
+            rating_count = rating_stats.find("span", attrs={"data-testid":"ratingsCount"}).text
+            rating_count = rating_count.replace(u'\xa0', u' ')
+            rating_count = rating_count[:rating_count.find(' ')]
+            rating_count = int(rating_count.replace(",",""))
+        except AttributeError:
+            rating_count = 0
 
-        reviews_count = rating_stats.find("span", attrs={"data-testid":"reviewsCount"}).text
-        reviews_count = reviews_count.replace(u'\xa0', u' ')
-        reviews_count = reviews_count[:reviews_count.find(' ')]
-        reviews_count = int(reviews_count.replace(",",""))
-
+        try: 
+            reviews_count = rating_stats.find("span", attrs={"data-testid":"reviewsCount"}).text
+            reviews_count = reviews_count.replace(u'\xa0', u' ')
+            reviews_count = reviews_count[:reviews_count.find(' ')]
+            reviews_count = int(reviews_count.replace(",",""))
+        except AttribiteError:
+            reviews_count = 0
         # retrieving the top genres of the book
         genre_list = [] 
         genres = raw_html.findAll("span", attrs = {"class":"BookPageMetadataSection__genreButton"})
@@ -66,15 +73,15 @@ def get_product_info(text):
 
 def book_scrape(book_id):
      # setting up driver so that there can be a short delay
-    driver = webdriver.Chrome('./chromedriver') 
+    driver = webdriver.Chrome() 
         
     # list of all the content of the books (items are series)
     lst = []
     for i in book_id:
-        print (i)
+        print(i)
         url = f'https://www.goodreads.com/book/show/{i}'
         driver.get(url)
-        time.sleep(3)
+        time.sleep(5)
         
 #         request = requests.get(url) # going directly to the book itself 
         # get the information about the book and then store it in the 
@@ -82,6 +89,7 @@ def book_scrape(book_id):
 #         info = get_product_info(request.text)
         info = get_product_info(driver.page_source)
         info["link"] = url
+        info["Book Id"] = i 
         ser = pd.Series(info)
         lst.append(ser)
         
