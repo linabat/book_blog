@@ -31,6 +31,9 @@ import educated from "../../Assets/Projects/educated.jpeg";
 import last_thing from "../../Assets/Projects/last_thing.jpeg";
 import used_to_be from "../../Assets/Projects/used_to_be.jpeg";
 import silent_patient from "../../Assets/Projects/silent_patient.jpeg";
+import flawless from "../../Assets/Projects/flawless.jpeg";
+import yours_truly from "../../Assets/Projects/yours_truly.jpeg";
+
 
 
 function Projects() {
@@ -50,7 +53,7 @@ function Projects() {
         </h3>
         <br />
         <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
-          Fake Marriage
+          Fake Relationship
         </h5>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -123,6 +126,20 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={yours_truly}
+              isBlog={false}
+              title="Yours Truly"
+              author="Abby Jimenez"
+              description="A novel of unexpected connections, hilarious misunderstandings, and the possibility of love, where Dr. Briana Ortiz's life takes a surprising turn when she receives a letter from the initially infuriating but ultimately endearing Dr. Jacob Maddox."
+              rating="⭐⭐⭐⭐"
+              dateFinished="09/25/2023"
+              review="I absolutely love this book. The effort it took to get this book was definitely worth it. Practically binge read it and stay up until 2:30, completely losing all track of time. Rating is a 4.5 rounded down to a 4. This is one of the few books that I've read where the author made the hero vulnerable, realistic, and an over-thinker and I'm in love with him. Showing and very realistic emotions, and also having a characte have anxiety and how he dealt with it made it all more realistic. The writing was so well done because at some points in the book, I felt like was third wheeling wanted to put the book down and I'm not interfering with their relationship. They're a dream pair and I love how their interst for each other was so organically made. Reason it wasn't a 5 because parts of the book just dragged out a bit making quite a bit repetive with their thoughts and feelings towards each other and the assumptions they made about each other. Made me want to scream at them and notice each other and communicate. Also, I would have loved some more interaction with the side characters as they were very built out as well. Other than that, I was completely hooked. I loved seeing how Brianna was caring for Jacob most of the time (which I absolutel adored) and help ease his anxiety. I would love to see a sequal to this because and what their life is."
+              ghLink="https://www.goodreads.com/book/show/63095160-the-temporary-wife?from_search=true&from_srp=true&qid=X49nRmaCae&rank=1"
+            />
+          </Col>
+
           <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Enemies to Lovers
           </h5>
@@ -184,6 +201,20 @@ function Projects() {
               dateFinished="01/07/2023"
               review="Ahh this book was definiltey a good choice to read before going back to school after break. I love the romance in the novel, but I love the timeline of the book more. It seems weird that in a lot of romance books/movies that the characters are falling head over heels with each other after a month or so of knowing each other but this book add a very realistic timeline, which allowed for better character developemt and relationship development between the main characters. I also enjoyed how the author included a single mother and the raw emotion of a mother, making her the main character. The book allows you to definitely develop a strong understanding of each character but also allows for the understanding of their relationship. The climax of the book would be the only thing I would really change because the child getting kidnapped but his father's mistress is a bit too much...would have made more sense if the father's wife or simply Jenny kidnapped him just cause the other lady came out of the blue. Anyways would definelty recommend as nice, family oriented book and I will defenitley be reading more books from the series."
               ghLink="https://www.goodreads.com/book/show/59114267-juniper-hill?from_search=true&from_srp=true&qid=MZ5qYCQwST&rank=1"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flawless}
+              isBlog={false} 
+              title="Flawless"
+              author="Elsie Silver"             
+              description="Troubled bull rider is attracted to is his agent's daughter, who was send to babysit him so that he doesn't cause any more ridiculuous scandals...and then they start to be attracted to each other."
+              rating="⭐⭐"
+              dateFinished="09/20/2023"
+              review="DNF - Was so disappointed by this book. I went through hoops to get this book and was definitely not worth it. There was definitley potential and the synoposis was pretty good as well as relative average rating/review of the book, but it just wasn't it for me. I got through 2/3 of the book by shear force and boredom, but there wasn't nothing that really intriguied me. The heroine did not seem to have a strong enough of a back bone and the reason that the hero and heroine liked each other was because they were purley based on physical attraction and not much else. I really tried reading getting through the end but couldn't bring myself to waste more time to read a book that had no substance. I did end up skipping to the end of the book to see what happend and if there were any suprises...but suprise suprise, nothign happened besides that they got together and they couldn't stop being together. Anyway, not worth the read."
+              ghLink="https://www.goodreads.com/book/show/60755618-flawless?ac=1&from_search=true&qid=vM7Lix2VBS&rank=1"
             />
           </Col>
 
@@ -420,7 +451,7 @@ function Projects() {
               isBlog={false} 
               title="In Fury Lies Mischief"
               author="Amo Jones"             
-              description="Was not a fan of this book. To be honest, I went in reading this book thinking I would like it because the cover looked nice (ik don’t judge) and the synopsis of the book seemed good and edgy. However, barely a few pages in I was very lost. There were things that were mentioned that I had no idea what was meant by it. Although I didn’t read the first book of the series, this could have been read as a standalone, without a lot of confusion. I genuinely had to push myself to continue reading the book. Why you may ask? The writing itself was good, although the plot was on the other end of the spectrum. The spice and tension between the two main characters were good - that’s as far as it went. Plot was confusing, scenes felt like they were repeated and it seemed like the only reason that the hero was attracted to the heroine in the first place was because of physical appearance and nothing else. Also, any time they had a fight, they would somehow end up doing the dirty, and then afterwards everything would be weird again…not sure how this works. True rating of the book would be a 2.5, but since I enjoyed the author’s writing style, rated it a 3 on good reads."
+              description="A dark and captivating tale unfolds as Killian Cornelii and the protagonist's tumultuous relationship evolves from attraction to something deeper, a love that's both painful and destructive, set against the backdrop of a mesmerizing performance, revealing the complexities of their hearts in this intense story."
               rating="⭐⭐"
               dateFinished="3/19/2022"
               review="Was not a fan of this book. To be honest, I went in reading this book thinking I would like it because the cover looked nice (ik don’t judge) and the synopsis of the book seemed good and edgy. However, barely a few pages in I was very lost. There were things that were mentioned that I had no idea what was meant by it. Although I didn’t read the first book of the series, this could have been read as a standalone, without a lot of confusion. I genuinely had to push myself to continue reading the book. Why you may ask? The writing itself was good, although the plot was on the other end of the spectrum. The spice and tension between the two main characters were good - that’s as far as it went. Plot was confusing, scenes felt like they were repeated and it seemed like the only reason that the hero was attracted to the heroine in the first place was because of physical appearance and nothing else. Also, any time they had a fight, they would somehow end up doing the dirty, and then afterwards everything would be weird again…not sure how this works. True rating of the book would be a 2.5, but since I enjoyed the author’s writing style, rated it a 3 on good reads."

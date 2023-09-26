@@ -65,7 +65,7 @@ function Home2() {
               <br />
               <div class="book_list">
                 <i>
-                <b className="purple">◌ I read 85 books during 2020</b> (had a ton of spare time during the pandemic)
+                <b className="purple">◌ I read 85 books during 2021</b> (had a ton of spare time during the pandemic)
                 </i>
                 <br />
                 <i>
