@@ -33,6 +33,8 @@ import used_to_be from "../../Assets/Projects/used_to_be.jpeg";
 import silent_patient from "../../Assets/Projects/silent_patient.jpeg";
 import flawless from "../../Assets/Projects/flawless.jpeg";
 import yours_truly from "../../Assets/Projects/yours_truly.jpeg";
+import too_short from "../../Assets/Projects/too_short.jpeg";
+
 
 
 
@@ -365,6 +367,20 @@ function Projects() {
               dateFinished="01/02/2023"
               review="This book was probably the only book that I've ever read with such low review numbers. I found it on tik tok and decided to give a try because of the description was quite intriguing. I really liked the characters and all of them seemedh genuine and especially enjoyed the character development between Jaime (little boy) and his dad (Wyatt). I did, however, think that the book was a bit odd in the sense that no right guy would approach the aunty (Avery) and make sexual references and get in personal space all within the span of a couple of hours of knowing each other. It was just weird, very sudden, and weakened the development of their relationship. As a result, I was at a loss about whether the development of their relationship was sparked by genuine personality interests or sexual interests. Also, I would like to add that the book timeline was very flat, in the sense that the climax was not really a climax and it just seemed like a normal conversation...not quite sure how I feel about that. I would say this book is worth a shot, however, not quite sure if I would go back and read any of the other books in this series...just seems to predictable, rushed sexually, and plot was not developed quite enough."
               ghLink="https://www.goodreads.com/book/show/50841664-the-rebel-s-redemption?ref=nav_sb_ss_2_23"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={too_short}
+              isBlog={false} 
+              title="Life's Too Short"
+              author="Abby Jimenez"             
+              description="An entertaining and heartwarming romantic comedy unfolds when globetrotter Vanessa Price's life takes an unexpected turn, and she finds herself caring for her niece with the unlikely help of her hot neighbor and his Chihuahua, leading to unexpected feelings and a chance at an uncertain future."
+              rating="⭐⭐⭐"
+              dateFinished="09/30/2023"
+              review="This book was alright. I expected a bit more after really enjoying the previous book I read by the same author (Your's Truly). The plot was a little slower and it started to get a bit messy at the end. Adrian, the main guy character, was a dream guy that immediately connected with Vanessa's baby, but the fact that he was so ignorant about her life which caused problems later on throughout the book was so a big mistake...considering he is a lawyer and all. Vanessa was a very strong character and I really enjoyed the power that the author gave to this main character. The side characters in the book were alright, but I wish there was more dynamic between them and the main characters. One thing I really enjoy about Jimenez's books is that she builds the relationship between the main characters based off of a strong friendship first that then transforms into a romantic one. However, I think reading two books by her right after each other was a bit too much because there was quite a bit of overlap and at times it seemed almost repetiive. Overall, I would recommend this book as long as you don't go in with high expectations."
+              ghLink="https://www.goodreads.com/book/show/54377375-life-s-too-short"
             />
           </Col>
 
