@@ -34,7 +34,29 @@ import silent_patient from "../../Assets/Projects/silent_patient.jpeg";
 import flawless from "../../Assets/Projects/flawless.jpeg";
 import yours_truly from "../../Assets/Projects/yours_truly.jpeg";
 import too_short from "../../Assets/Projects/too_short.jpeg";
-
+import with_you_forever from "../../Assets/Projects/with_you_forever.jpeg";
+import out_on_limb from "../../Assets/Projects/out_on_limb.jpeg";
+import tattered from "../../Assets/Projects/tattered.jpeg";
+import true_love_experiment from "../../Assets/Projects/true_love_experiment.jpeg";
+import book_lovers from "../../Assets/Projects/book_lovers.jpeg";
+import eleanor_oliphant from "../../Assets/Projects/eleanor_oliphant.jpeg";
+import beach_read from "../../Assets/Projects/beach_read.jpeg";
+import hello_beautiful from "../../Assets/Projects/hello_beautiful.jpeg";
+import before_we_strangers from "../../Assets/Projects/before_we_strangers.jpeg";
+import cuckoo_calling from "../../Assets/Projects/cuckoo_calling.jpeg";
+import sparrow from "../../Assets/Projects/sparrow.jpeg";
+import one_only from "../../Assets/Projects/one_only.jpeg";
+import your_intolerable from "../../Assets/Projects/youre_intolerable.jpeg";
+import falling_embers from "../../Assets/Projects/falling_embers.jpeg";
+import mile_high from "../../Assets/Projects/mile_high.jpeg";
+import before_let_go from "../../Assets/Projects/before_let_go.jpeg";
+import seven_husbands from "../../Assets/Projects/seven_husbands.jpeg";
+import nora_script from "../../Assets/Projects/nora_script.jpeg";
+import getting_real from "../../Assets/Projects/getting_real.jpg";
+import only_for_week from "../../Assets/Projects/only_for_week.jpg";
+import room from "../../Assets/Projects/room.jpg";
+import could_be_us from "../../Assets/Projects/could_be_us.jpg";
+import motor_man from "../../Assets/Projects/motor_man.jpg";
 
 
 
@@ -43,20 +65,20 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Book Review<strong className="purple">Thought Dumb </strong> 
+          Book Review <strong className="purple">Thought Dumb </strong> 
         </h1>
         <p style={{ color: "white" }}>
           Featuring my original thoughts regarding the books I've read
         </p>
         <br/> 
         <br /> 
-        <h3 style={{ color: "white", textAlign: "left"}}>
+        <h2 style={{ color: "white", textAlign: "left"}}>
           Romance
-        </h3>
+        </h2>
         <br />
-        <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+        <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Fake Relationship
-        </h5>
+        </h3>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -142,9 +164,37 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={with_you_forever}
+              isBlog={false}
+              title="With You Forever"
+              author="Chloe Liese"
+              description="A sunshine-filled woman and a grumpy artist enter a marriage of convenience that turns into a love match, amidst family antics and personal challenges."
+              rating="⭐⭐⭐⭐"
+              dateFinished="10/11/2023"
+              review="It's been a while since I've last written a book review, so this is being written nearly a month after I've read the book - just a note. The word that comes into mind when I think of this book is cute. I was a very contemporary romance novel in the sense where everything was nice and smooth going and no stressful part. I really liked how Liese created characters that you can see being very real, with real health problems. The book was not all that exciting as it really focused on using time to develop the relationship between the characters, but it was good. The guy character was nice and personable in his own way and the girl was the same (like the way the girl was written out more). I did find that parts of the novel were fairly repetitve but it wasn't too bad. This is the second book I've read in this series, though I read the first one quite a while ago, it was good from what I remember. Overall, would recommend reading this book when want and easy book to go through and take you mind off of stuff."
+              ghLink="https://www.goodreads.com/book/show/57558144-with-you-forever"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={one_only}
+              isBlog={false}
+              title="One and Only"
+              author="Karla Sorensen"
+              description="In One and Only, the protagonist enters a fake marriage with Beckett Coleman for practical reasons but finds herself falling for him despite their differences. As their feelings deepen, they struggle to maintain the facade and face the risk of jeopardizing everything they've built."
+              rating="⭐⭐"
+              dateFinished="02/22/2024"
+              review="Not sure when to say much other than I just didn't like this book. It's an arranged marriage type of book, but they literally acted like it was a real marriage from the beginning. They were both attractced to each other before they started to marry one another, so the intentions of getting together was fully believable to me. Also, they kept talking about the girl's mother leaving to another country...but that never happens in this book which makes me question how long the time period they were fake together was ... and it's also weird if it was rushed. The best character of the book was the child. Long story short, don't recommend this book."
+              ghLink="https://www.goodreads.com/book/show/123024203-one-and-only"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Enemies to Lovers
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -188,9 +238,9 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Small Town Romance
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -220,9 +270,79 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={book_lovers}
+              isBlog={false} 
+              title="Book Lovers"
+              author="Emily Henry"             
+              description="Nora Stephens, a tough literary agent, ends up in a small town with her sister, where she repeatedly encounters Charlie Lastra, a grumpy editor, challenging their self-written stories of not being typical romantic leads."
+              rating="⭐⭐⭐"
+              dateFinished="11/15/2023"
+              review="This book was a very much alright book. I went in with more expectations and that was definitely my fault. I'm writing this review a few weeks later, so may be a bit vauge but I will say what I can remember. I really liked the guy in this book; he seemed close to perfect. However the relationship between him and the girl lead was far from naturally perfect. The book seemed quite repetitive and the bits about her sister being sneaky and all was quite random and could have been better structured. I'm going to keep this review nice and short. Would only recommend this book if you want a very lowkey book that doesn't have too much progression in the plot."
+              ghLink="https://www.goodreads.com/book/show/58690308-book-lovers"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={beach_read}
+              isBlog={false} 
+              title="Beach Read"
+              author="Emily Henry"             
+              description="Opposites Augustus and January, both struggling with writer's block, strike a deal to switch genres for the summer. As they challenge each other creatively, they also confront their beliefs about love and literature."
+              rating="⭐⭐⭐⭐"
+              dateFinished="12/27/2023"
+              review="I really enjoyed this book. The dynamic of January and Augustus was very realistic and understandable, making it easy to fall for the romance these characters had. I found that I enjoy Emily Henry's plot as well as her writing, where there is good balance between character and relationship development. It was a definitely a feel good kind of book that allowed me to get lost in their little town for the period of time I was reading it. Would recommend!"
+              ghLink="https://www.goodreads.com/book/show/52867387-beach-read"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={falling_embers}
+              isBlog={false} 
+              title="Falling Embers"
+              author="Catherine Cowles"             
+              description="From the moment Calder Cruz taught her to fly, the protagonist knew he was her everything, despite being her brother's best friend. But a single night changed everything, leaving them as strangers. Years later, they reunite at the fire station where Calder works as a single father. Despite the passage of time, their love reignites, but shadows from the past threaten to extinguish their flame once more."
+              rating="⭐⭐⭐"
+              dateFinished="03/01/2024"
+              review="This book was so repetitive that a 3 seems like too kind of a rating. Nevertheless, I did enjoy the general plot of the book and the main character dynamic throughout. It was very much a simple small town vibe where both the main characters are working in rescue work. However, the plot it self did seem choppy or rushed at time, not really building up the love and respect they had towards one another. There's really not much else to say. The plot twist was alright but having multiple climaxes made it seem a bit much...would have just been better off with simply one. Also, the turning point at which the guy started seeing the girl for who she really is was so early in the book and so poorly done that it didn't seem like that big of a moment (though it was included in the synoposis). Wouldn't really recommend if you're looking to deep dive into the novel of the book."
+              ghLink="https://www.goodreads.com/book/show/59990417-falling-embers"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nora_script}
+              isBlog={false} 
+              title="Nora Goes Off Script"
+              author="Annabel Monaghan"             
+              description="After her husband leaves, Nora Hamilton turns her heartbreak into a successful screenplay. When filming brings former heartthrob Leo Vance to her doorstep, Nora's life takes a surprising turn. As they spend time together, their connection grows, leading to a love story filled with complexities and real-life challenges. Nora Goes Off Script is a heartwarming tale of love in the midst of life's ups and downs."
+              rating="⭐⭐"
+              dateFinished="04/01/2024"
+              review="I did not enjoy this book. It had really great potential but it was so all over the place and lack of character development that it just seemd like the author was writing for the saking writing but nothing else. It was quite abit repetitive too which Nora complaining about her ex husband and having to live a loveless marriage. Also, the time line made no sense to me...they fall in love within like 2 weeks...which makes no sense. The progression of their relationship is glossed over with very basic stuff and the majority of the book is Nora trying to get over the actor...the climax was alright but also these people are in their 30s/40s...they could have simply communicated better."
+              ghLink="https://www.goodreads.com/book/show/58988426-nora-goes-off-script"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={could_be_us}
+              isBlog={false} 
+              title="This Could Be Us"
+              author="Kennedy Ryan"             
+              description="Soledad Barnes, a meticulous planner and domestic goddess, finds her life unraveling when her perfect world is shattered by betrayal. As she focuses on supporting her daughters and rebuilding their lives, Soledad rediscovers her own strength and resilience. Amidst this transformation, an unexpected and forbidden romance emerges, challenging her to trust again and contemplate the possibility of a new beginning."
+              rating="⭐⭐⭐⭐"
+              dateFinished="05/29/2024"
+              review="This book took so freakin long to read....I mean weeks. There was nothing in this book that kept me drawn to it and I sorta pushed myself to keep reading it. Despite that, I did give it a 4 star because it was a good book with good characters and good writing. The love story and development that we saw was well done, though extremelely dragged out. Single mom with divorced dad with special needs kids was a really good mix and brought up conversations that you don't typically see in romance books, changing the monotonous and tunneled ways romance books can be sometimes, and I really appreciated that. Overall, would recommend, though probably not at top of TBR list."
+              ghLink="https://www.goodreads.com/book/show/182762109-this-could-be-us"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Bestfriend's Brother
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -266,9 +386,9 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Second Chance Love
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -298,9 +418,51 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={before_we_strangers}
+              isBlog={false} 
+              title="Before We Were Strangers"
+              author="Renee Carlino"             
+              description="This novel reminisces about a past connection formed in college, now rekindled by a chance encounter. Despite years apart, the narrator feels drawn to reconnect and invites their former friend for a drink to catch up on lost time."
+              rating="⭐⭐⭐⭐"
+              dateFinished="01/17/2024"
+              review="I'm writing this review 2 months after I finished this book, so my memory on it is fairly fuzzy. Though, I can confidently say I wish there was more. I loved the writing of thes book and how smooth everything flowed together, and there wasn't much repeetition, however, I just feel like the author could have provided more information and detail on their life in between when they weren't together. I loved the main characters, and especially loved Grace and her confident personality. The guy was alright too, geeky and written like typically college portrayed student. The dynamic that they had together is soemthing that I envy and want to live. When they reconnect, it was cute and comforting. However, everytime I got to a major turning point, I found myself just wanting more context and information about the gaps that we didnt' know about...whether that was the intention of the author, I will never know but just had to put it out there. Overall, the hype I think it got on TikTok was well placed, though maybe a bit overhypes  - still recommend though."
+              ghLink="https://www.goodreads.com/book/show/23309634-before-we-were-strangers"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={before_let_go}
+              isBlog={false} 
+              title="Before I Let Go"
+              author="Kennedy Ryan"             
+              description="Yasmen and Josiah Wade's once unbreakable love couldn't withstand life's challenges, leading to the end of their marriage. Despite finding joy separately, their undeniable connection pulls them back together, reigniting a forbidden affair. As they grapple with old wounds and newfound passion, they must decide if they can create a better future together or if it's time to let go for good."
+              rating="⭐⭐⭐⭐"
+              dateFinished="03/20/2024"
+              review="I really enjoyed this book. It was sweet and cute and wholesome in all the right ways. The author discussed alot of important topics in a very gentle manner and made the whole plot go smoothly. There was some reptition throughout but it was not horrible. I do wish there were more scenes where the main characters talked about their feelings together as well as the past, or if there was a really good plot twist because at times, it just felt hard to connect with the characters. I must say, the author did a good job about making the story very realistic, showing all the goods and bads of a marriage and also balancing a family within all that. Overall, would recommend."
+              ghLink="https://www.goodreads.com/book/show/60568471-before-i-let-go"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={seven_husbands}
+              isBlog={false} 
+              title="The Seven Husbands of Evelyn Hugo"
+              author="Taylor Jenkins Reid"             
+              description="Aging Hollywood icon Evelyn Hugo chooses magazine reporter Monique Grant to tell her scandalous life story. As Monique listens to Evelyn's tale of ambition, friendship, and forbidden love, she discovers their lives are more connected than she ever imagined."
+              rating="⭐⭐⭐⭐"
+              dateFinished="03/27/2024"
+              review="Ah this book has been on my TBR list for quite some time and I finally got to it! Both the writing and the plot where done so well that it was extremely easy to get lost in Evelyn's world and feeling. The plot it self also should the struggles of love over many years , but done in a very smooth way where it didn't seem stretched out and you kept itching for more. The only thing is that I wish the plot twist was bigger in a sense...by the time I got to it, I had already anticipated it. This may have been because of the fact that there was a bit too much foreshadowing that took place. Definitely recommend!! SPOILER: I am glad though that Evelyn and Celia did get a bit of a happy ending, or as much as they could have with the life that they've been through together."
+              ghLink="https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Mafia
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -316,9 +478,23 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sparrow}
+              isBlog={false} 
+              title="Sparrow"
+              author="L.J. Shen"             
+              description="This book follows the story of Sparrow Raynes, whose life takes a dramatic turn when she becomes the wife of Troy Brennan, a notorious figure in Boston known as 'The Fixer'. Trapped in a world of control and violence, Sparrow struggles to pursue her dreams while navigating the dangerous dynamics of her marriage. This gripping novel explores themes of power, identity, and survival in an urban setting fraught with danger."
+              rating="⭐⭐⭐⭐⭐"
+              dateFinished="02/19/2024"
+              review="Hehehhe this is my guilty pleasure book. The content of the book is really not all that great, but just love the mindlessness of reading it and the character development between the girl and the guy. I genuinely have to want to read this kind of book to give is such a high rating...had I been in any other mood to read a different genre, this book definitely would have not gotten such a high rating. This is my second time reading this novel...we shall see how may times I will come back and read this book. One thing I did notice coming back and reading this book is that there isn't really smooth flowing character development and also there a flaws in the writing where different details are mentioned within the same scene, contradicting each other. Overall, would recommend if you don't mind medicore writing and a good mindless read."
+              ghLink="https://www.goodreads.com/book/show/27263454-sparrow"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Slowburn Romance
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -334,9 +510,9 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Workplace Romance
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -352,9 +528,51 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={true_love_experiment}
+              isBlog={false} 
+              title="True Love Experiment"
+              author="Christina Lauren"             
+              description="A romance writer who's never been in love and a documentary filmmaker desperate to save his job team up for a reality TV love story, battling their own rising chemistry and the challenges of crafting a genuine on-screen romance."
+              rating="⭐⭐⭐⭐"
+              dateFinished="11/05/2023"
+              review="I very much enjoyed this book, especially how it was reference San Diego and UCSD quite a bit (and I knew exactly what locations were being talked about!). I loved the guy character - very personable and his dynamic with the main girl character was very good as well as his daughter. I think the start of the book was a bit rough, especially when the two main characters met, and then the transition from the girl not liking him to being best friends with him was too quick/not clear. But the was the only start of the book. The rest of the book was very much smooth sailing. It was so refreshing reading about characters that actually communicate with each other so everything is nice and transparent. I also enjoyed the plot of the book and the whole premisis of the book and how everything came together perfectly at the end with the game show. Definitley recommend this book. Fun fact I learnd while searching up this book - there are two authors who write the book together and have combined their names to have that as their pen name."
+              ghLink="https://www.goodreads.com/book/show/62361081-the-true-love-experiment"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={getting_real}
+              isBlog={false} 
+              title="Getting Real"
+              author="Emma Chase"             
+              description="In Emma Chase's new romance, successful doctor and single father Connor Daniels re-enters the dating scene and finds unexpected love with ER nurse Violet Robinson, who has secretly admired him for years. Their relationship blossoms amidst humorous and emotional challenges, revealing the beauty and unpredictability of life and love."
+              rating="⭐⭐⭐"
+              dateFinished="4/05/2024"
+              review="It's exactly 3 months later when I'm writing this review and I quite honestly have no recollection of this book. I had to go back and read through goodread reviews to figure out what the plot that I read and forgot so quickly. But immediately I know that forgetting everything about this book is a sign that it just wasn't good enough to remember...and that's a pretty low bar. Now having a refresher, I can confidently say I still don't remember much. What I do remember is that I liked the hero and that he was a good single dad. That's it. With this short review, I guess it's a sign that that you probably shouldn't have this book first on your TBR list."
+              ghLink="https://www.goodreads.com/book/show/53190768-getting-real"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={motor_man}
+              isBlog={false} 
+              title="Motorcylce Man"
+              author="Kristen Ashley"             
+              description="Tyra Masters is ready for a drama-free life until she meets the man of her dreams: Kane 'Tack' Allen, a tattooed, muscled biker who gives her the best night of her life. The catch? He's also her new boss, and he has a rule against employing someone he's slept with. When he fires her, Tyra stands her ground and fights for her job, leading Tack to let her stay on one condition: no more sex. But as their attraction intensifies, Tack finds himself breaking his own rule."
+              rating="⭐"
+              dateFinished="5/31/2024"
+              review="DNF - don't remember this book and quite frankly don't really care to remember."
+              ghLink="https://www.goodreads.com/book/show/18078681-motorcycle-man"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Children in Tow 
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -384,9 +602,51 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={out_on_limb}
+              isBlog={false} 
+              title="Out On a Limb"
+              author="Hannah Bonam-Young"             
+              description="Win, fiercely independent despite her limb difference, has her life turned upside down by a charming one-night stand with Bo, leading to unexpected challenges they decide to face as friends, not lovers—at least, that's the plan."
+              rating="⭐⭐⭐⭐⭐"
+              dateFinished="10/19/2023"
+              review="I most definitely enjoyed this book. The writing was spectacular and the characters were so well written. The fact that I remeber quite a bit from this book though its been a few weeks since I've read says a lot. Bo is very much my dream guy. The dynamic betwee him and Win is so organic and very well built up. I very much enjoyed how the book progressed in such an easy going way where nothing seemed too repettive and I witnessed all the small moments and build up it took for them to fal in love udirng the duration of the pregnancy. I also very much enjoyed the dynamic with the side characters and how everything followed so well together. This novel provided all the small pieces you look that show the full story of the characters falling in love, and a highly recommend for anyone to read it. Side note: the author did a very good job about creating realisitc characters who are not perfect (big plus!)."
+              ghLink="https://www.goodreads.com/book/show/124950295-out-on-a-limb"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tattered}
+              isBlog={false} 
+              title="Tattered"
+              author="Devney Perry"             
+              description="Thea, who's always felt low on the social ladder, has her world shaken when Logan, a wealthy man from a one-night stand, reappears in her life, and this time she's determined to hold onto him."
+              rating="⭐⭐⭐⭐"
+              dateFinished="10/31/2023"
+              review="I genineuly enjoyed this book, though I thought parts of the book were slower to get through. It was also quite too repetitive for my full liking. Nevertheless, the dynamic between the girl and the guy and their daughter was very cute and well written. Favorite character was the daughter, who was very well written and actually resembled the age that she is. The dynmic between the main girl and guy seemed very much based on sexual tension rather than true liking of each other at the very start of the book, but that did eventually change after a while. Beyond that, the book was quite a bit repetitive and the cllimax was very much seemed out of the blue...didn't seem like it was well thought out. True rating would be 3.5, rounded up to 4."
+              ghLink="https://www.goodreads.com/book/show/38456737-tattered"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={your_intolerable}
+              isBlog={false} 
+              title="P.S. You're Intolerable"
+              author="Julia Wolf"             
+              description="A pregnant assistant finds herself begrudgingly reliant on her seemingly robotic boss, Elliot Levy. Unexpectedly, Elliot extends a helping hand when she needs a place to stay after her daughter is born, revealing a more compassionate side. As they grow closer, the assistant wrestles with her feelings for Elliot, who seems determined to keep her and their newfound family together, even if it means resorting to underhanded tactics."
+              rating="⭐⭐⭐⭐"
+              dateFinished="02/26/2024"
+              review="The book definitley satisfied my need to read a feel good book. Definitely think this book had a really good plot and balance between plot and spice. The book started off really really strong, however it felt like 2/3 of the way through the book, it started to drag out. I loved the guy character - dream guy vibes, and the girl character well balanced him out. I wish there was more interaction between the guy's group of friends and the couple themselves, that would have added additional flow and plot into the book which could have moved it along a bit faster. Definitely enjoyed the writing, although was very repetitive at times. Overall, would recommend this book."
+              ghLink="https://www.goodreads.com/book/show/193349012-p-s-you-re-intolerable"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Heart Breaking
-          </h5>
+          </h3>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -416,9 +676,9 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Dark 
-          </h5>
+          </h3>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={corrupted_chaos}
@@ -475,16 +735,16 @@ function Projects() {
             />
           </Col>
 
-          <h5 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Age Gap
-          </h5>
+          </h3>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={misconduct}
               isBlog={false} 
               title="Misconduct"
               author="Penelop Douglas"             
-              description="Easton Bradbury, a former tennis player turned teacher, is determined to excel in her new role and forget her past until a parent-teacher meeting with Tyler Marek, a wealthy businessman, introduces an unexpected attraction that challenges her resolve and threatens to reveal secrets best kept hidden.."
+              description="Easton Bradbury, a former tennis player turned teacher, is determined to excel in her new role and forget her past until a parent-teacher meeting with Tyler Marek, a wealthy businessman, introduces an unexpected attraction that challenges her resolve and threatens to reveal secrets best kept hidden."
               rating="⭐⭐⭐"
               dateFinished="12/19/2022"
               review="Not sure how to feel about this book. The plot was very meh as there wasn't much build up between Tyler and Easton since it was attraction at first sight. It was one of those books where they started to fall in love because of the physically attraction between them rather than fundamnetal values - not a fan. There were a lot of steamy scenes, which honestly took up majority of the book. Without the steamy scenes, the book would maybe 1/3 the length. Quite honestly, I considred multiple times while I was reading the book to just stop and find another more enjoyable novel but I was bored enough that I just continued reading...glad I did only because the ending had a small twist that was surprising but almost expected. I've read multiple Penelop Douglas books because this has to be one of the least favorite ones. Not a book that I find myself drawn too and when I got up and could simply forget about it...that's how you know its definitely less that a 4/5 star book. Anyways...quick summary of the book: young teacher, Easton, meets super rich guy, Tyler at an event. They are attracted to each other but ending up getting disconnected for 6 monthts until they find out that Easton is teaching one of Tyler's son's classes. They had to hide their relationship and do weird stuff in private, but other than that nothing super duper interesting happens. The ending is when Easton's brother, Jack, made her fearful but mimicking a stalker and breaking into her apartment multiple of time...which sucked because I think Jack was one of the better written characters."
@@ -492,9 +752,43 @@ function Projects() {
             />
           </Col>
 
-          <h3 style={{ color: "white", textAlign: "left"}}>
-          Memoir
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Sports Romance
           </h3>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mile_high}
+              isBlog={false} 
+              title="Mile High"
+              author="Liz Tomforde"             
+              description="In the world of Chicago hockey, Zanders is the player everyone loves to hate, known for his bad boy persona both on and off the ice. When a new flight attendant joins the team, their dynamic takes an unexpected turn, leading to a complex relationship filled with attraction and tension."
+              rating="⭐⭐"
+              dateFinished="03/16/2024"
+              review="I did not like this book. On a roll at this point with choosing books that are so repetitve it makes me want to stop so early on...nevertheless I powered through and finished the book. Quite honestly I just thinking the character development and their romance together was built on the wrong reason, mainly was just on attraction for a good portion of the start of the book. Also, the constant repetition and lack of actually doing anything made me want to pull my hair out at time. Quite honeslty, I'm shocked that it has as many reviews as it does on Goodreads. I think one of the good things about this book though was including body diversity into the novel through the heroine...that's mostly it. The hero did seem like a really ideal guys, so that was a plus as well. If this is your type of vibe (ie repetition and hockey romance) that I would recommend this book."
+              ghLink="https://www.goodreads.com/book/show/60909831-mile-high"
+            />
+          </Col>
+
+          <h3 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Other
+          </h3>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={only_for_week}
+              isBlog={false} 
+              title="Only for the Week"
+              author="Natasha Bishop"             
+              description="At the wedding of Amerie Cross and Arnold Hightower, maid of honor Janelle Cross surprises the guests with her toast. Known as both the bride's sister and the groom's ex-girlfriend, she reveals she's been secretly involved with the best man, Rome Martin. What started as a brief fling in Tulum feels like it could last forever, leaving her to wonder if what happens in Tulum really stays in Tulum."
+              rating="⭐⭐⭐⭐"
+              dateFinished="03/16/2024"
+              review="I genuinely enjoyed this book. Realistic no, but enjoyable = yes. I am writing this review 3 months later so my memory may not be the clearest, but I just remember reading it and really enjoying the plot, the character, and the writing style. There characters were refreshing and I wasn't very repetitive. There was a perfect mix for how much the plot focused on the main characters vs side characters, a blend that I've found is truly hard to master. Though this review is short because I can't remember anything else important that I must shared, I would recommend this book as any easy, chill read."
+              ghLink="https://www.goodreads.com/book/show/152387598-only-for-the-week"
+            />
+          </Col>
+
+          <h2 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
+          Memoir
+          </h2>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={educated}
@@ -503,15 +797,15 @@ function Projects() {
               author="Tara Westover"
               description="Tara Westover's gripping memoir, she recounts her extraordinary journey from a secluded upbringing in the mountains of Idaho, where she had no formal education and relied on herbalism for medical care, to her determination to self-educate, ultimately earning admission to prestigious universities and discovering a world beyond her family's isolation, but at the cost of severed ties and a quest for self-invention."
               rating="⭐⭐⭐⭐"
-              dataFinished="05/07/2023"
+              dateFinished="05/07/2023"
               review="To be honest, it feels quite weird to rate a book that as written based someones life. This was my first reading a full memoir novel and it be frank, it took me quite sometime to get through it because I was reading it in very slow chunks and didn't have the usual feeling of needing to read through it. But with that, I really got to absorb the book and what Tara was writing about. The writing was well done. I can't comment on the plot as that is not something that I should judge but, man, if I had a brother like Steve and a father like Tara's dad, I would not have been able to surivie nor grow to the person that Tara did. This a story of self identity and recognition of who and what family is. I've always enjoyed reading about other's lives, which is why it's shocking tha tthis was my first actual memoir, but definitley won't be the last. Tara's story is truly inspriational and as I was reading through it, I felt like a lot of what she was saying can defintely be struggles others relate with for different reasons. Ultimately, her making a decision that was best for her was something that made me happy to read about in the end, especially after reading about all her struggles. "
               ghLink="https://www.goodreads.com/book/show/35133922-educated?from_search=true&from_srp=true&qid=awWzfBCBz5&rank=1"
             />
           </Col>
 
-          <h3 style={{ color: "white", textAlign: "left"}}>
+          <h2 style={{ color: "white", textAlign: "left", paddingLeft:"2%"}}>
           Mystery
-          </h3>
+          </h2>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={last_thing}
@@ -520,15 +814,29 @@ function Projects() {
               author="Laura Dave"
               description="Tara Westover's gripping memoir, she recounts her extraordinary journey from a secluded upbringing in the mountains of Idaho, where she had no formal education and relied on herbalism for medical care, to her determination to self-educate, ultimately earning admission to prestigious universities and discovering a world beyond her family's isolation, but at the cost of severed ties and a quest for self-invention."
               rating="⭐⭐⭐⭐"
-              dataFinished="09/02/2023"
+              dateFinished="09/02/2023"
               review="3.5 stars rounded up to 4. I've had this book sitting in my 'TBR' list for quite sometime and kept seeing it pop up on my seeing it pop up on my Tik Tok field and displayed in bookstores, so I decided to finally give it a try. Very glad I did so. This book had me hooked - phyiscally couldn't put the book down for hours. It started off incredibly strong but towards 2/3 of the way into the book, it just seems to fall off quite a bit. The plot was suddenly rushed, the secrety coming out could have been a lot more intense and I wasn't completely satisfied with the ended (might have been the intention but I would have genuinely liked a bit more). I would have loved to see more of a relationship build between Hannah and Bailey because that also just seemed rushed. Also, I went in expected there to be a bit more action, so wasn't satisfied with the amount that was actually there. The writing was good, although at times it was a bit repetitive, which slowed down the book a bit. Overally, would recommend this book to someone else as it still was down pretty well over all, but would warn them to not go in with very high expectations as I did."
-              ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
+              ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me"
             />
           </Col>
 
-          <h3 style={{ color: "white", textAlign: "left"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cuckoo_calling}
+              isBlog={false}
+              title="The Cuckoo's Calling"
+              author="Robert Galbraith"
+              description="After suffering the loss of his leg in Afghanistan, Cormoran Strike struggles to make ends meet as a private investigator. When John Bristow seeks his help, claiming his sister, supermodel Lula Landry, didn't commit suicide as the police ruled, Strike is thrust into a world of glamour, wealth, and intrigue. As he delves deeper into the case, Strike encounters a diverse cast of characters, uncovering the truth behind Lula's mysterious death."
+              rating="⭐⭐"
+              dateFinished="02/11/2024"
+              review="Ack this book took me forever to finish. I initially found this book at our farmer's market was about the purchase the hard copy...thank God I didn't. I still read it though becaue the premise of the book genuinely sounded interesting and someone at the farmers market recommended it. My biggest problem with the book was that it was just genuinely hard to follow along with and that main detective was not interesting at all. The whole book was just chasing one person to another and then when everything came together, it was just weird...like how did the detective even put all the information together. The ending though did shock me, which is why this book is getting 2 fulls starts. I wish there was more character friendship building between the detective and his assistant. Also, another big problem I had this book is that it was just filled with random information was just not important...like all the information about the detective and his ex. Quite honestly, I'm very proud of myself for even making it through the full novel, took a lot of effort. Though I wouldn't recommend this book, I'm interested to see how they're planning to turn this into a movie and how the ratings of that will be."
+              ghLink="https://www.goodreads.com/book/show/16160797-the-cuckoo-s-calling"
+            />
+          </Col>
+
+          <h2 style={{ color: "white", textAlign: "left",  paddingLeft:"2%"}}>
           Mental Health - Fiction 
-          </h3>
+          </h2>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={used_to_be}
@@ -537,15 +845,57 @@ function Projects() {
               author="Amber Smith"
               description="Eden desperately wishes to go back in time to change the course of one fateful day, but instead, she hides her past and pretends not to need anyone or anything. However, as her life unravels, she realizes that the only person who can save her is herself."
               rating="⭐⭐⭐⭐"
-              dataFinished="12/25/2022"
+              dateFinished="12/25/2022"
               review="This book was very different from what I usually read. It was an good different, but definetly what was not expected. The main girl was raped by her brother's best friend her freshman year of high school and it wasn't until senior year did anyone find out. Fortunately, I have never been in the position she has, so I can't say what would realistically take place. However, there are parts throughout the book that I was frustrated about, mostly because of the fact that it was repetivie in how she was acting out. I understand that this may be part of the build up the story, however, but it was almost too much. There were really no insight to her thoughts and the progression of the book was slow. Also, the way she used people around her made me wonder if this was in fact a realistic information of what would have happened to someone when they are assualted...just wondering how accurate the information is. Overall, althought the writing was really good and the character sympathy path was very solid, the plot was a bit slow, hence the missing star."
               ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
             />
           </Col>
 
-          <h3 style={{ color: "white", textAlign: "left"}}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eleanor_oliphant}
+              isBlog={false}
+              title="Eleanor Olphant is Completely Fine"
+              author="Gail Honeyman"
+              description="Eleanor Oliphant, a socially awkward woman with a solitary life, finds her world transformed through her friendship with Raymond, a clumsy IT guy, leading her to open her heart and embrace change."
+              rating="⭐⭐⭐"
+              dateFinished="12/06/2023"
+              review="It was my fault. I read the first page of the last chapter before I was even 15 pages into the book and spoiled it for myself. For this reason, my rating may not be a clear indiication as I wasn't shocked by the plot twist. However, with all this being said, I was still slightly disappointed in the book. This was the first paper-back boo I've read in a year so I went in with very high expectations, because to me, by defaulty, paper back books are better. Wrong assumption. I can definitely see the good qualities of the novel, especially the writing, however I just had a hard time getting into it. Eleanor was quite interesting and was nice reading a novel from the point of a view of character who is not completely typical...yet it just seemed like it was so extended. I needed to get through at least 2/3 of the book before I really started to get into the novel, but I was just expecting more. The author hinted so much at Eleanor's past that it wasn't even a surprise when it was actually brought up. Also, the climax of the book was well written except for the inciting incende that caused the climax...her obsession with the guy and the reason doing so was not all that great (though the point of feeling umcomfy and seeing that something was wrong definitely came across). Also, I would have liked more conversation and dynamic between Elanor and RaymondOverall, would only recommend this book only if you have time on you hads so that you can read the book and get to the good parts."
+              ghLink="https://www.goodreads.com/book/show/31434883-eleanor-oliphant-is-completely-fine"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hello_beautiful}
+              isBlog={false}
+              title="Hello Beautiful"
+              author="Ann Napolitano"
+              description="Hello Beautiful is a touching narrative of William Waters, scarred by his past, finding solace and love with Julia Padavano and her supportive family. However, when William's past returns, it tests their bonds and loyalty. Ultimately, it's a story of love's power to heal and unite despite challenges."
+              rating="⭐⭐⭐⭐"
+              dateFinished="01/05/2024"
+              review="Started this book with no expectations and I'm glad. I'm finding it hard to find words to describe the book without giving too away. I'll start by saying the writing was very well done, with all the character's personas being very clear with their actions and words. The book alterated point of views between 4 characters, initally 3, which I found very interesting and started to enjoy. It also spanned a lot of time, showing the growth of the characters as well as their flaws. I didn't like Julia at all at the beginning of the book because of her up tight character but she became alright towards the end, still not my favorite. William was alright also...if there was any character that was lacking a bit in the descriptions and actions, it would have been William's. I absolutely love Sylvie, there's not much more to say there. As for the parents, I didn't like Rose at all and I wish Charlie was present more. The dynamic of the sisters in the book was lovely to witness and see, and I loved how for the most part, it remained consistent across the different years that the book spanned. Now for some spoilers...I absolutely loved William and Sylvie together and the love they had for one anothers...I wish there wer sections of the book that showed more of this and talk more about their relationship dynamic. Would definitely recommend!"
+              ghLink="https://www.goodreads.com/book/show/61771675-hello-beautiful"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={room}
+              isBlog={false}
+              title="Room"
+              author="Emma Donoghue"
+              description="Room is narrated by five-year-old Jack, for whom Room is the entire world where he lives with his Ma, safe from Old Nick who visits at night. While Jack sees Room as home, Ma sees it as the prison where she's been held captive for seven years. Driven by fierce maternal love, Ma devises an escape plan that hinges on Jack's bravery. This inventive and poignant novel celebrates resilience and the powerful bond between mother and child, exploring their journey from captivity to freedom."
+              rating="⭐⭐⭐⭐"
+              dateFinished="04/18/2024"
+              review="Ah. This book had my head hurting for a little bit at the start as I was adjusting to the writing style. The author did a pretty good job of developing this book, though I feel like parts of the overall plot were lacking or just missing. It felt rushed towards the end as they worked towards their escape, but may have simply been the intention to make it seem like the outdoor world moves at a much faster pace. I wish there was a time jump to see how the boy was doing years later after being free for a good amount of time. I watched the movie with one of my friends who also read the book and would definitely just recommend sticking to the novel version. The movie did not develop the mom very well and also cut out different parts that actually progressing the timeline. Also, I can't forget the fact that the cinematics of the movie version were not done well...quite frankly if I hadn't been watching it with my friend, I would have stopped the movie maybe 20 minutes in. Overall, recommend the book since it does provide you a really unique insight to a child's mind as they're growing and living in a hell that that they don't even realize."
+              ghLink="https://www.goodreads.com/book/show/31685789-room"
+            />
+          </Col>
+
+          <h2 style={{ color: "white", textAlign: "left"}}>
           Psychological Thriller
-          </h3>
+          </h2>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={silent_patient}
@@ -554,7 +904,7 @@ function Projects() {
               author="Alex Michaelides"
               description="Alicia Berenson, a seemingly perfect artist, becomes notorious when she shoots her husband without explanation, and criminal psychotherapist Theo Faber is determined to break her silence, setting off a suspenseful and consuming quest to uncover the truth behind the shocking act of violence."
               rating="⭐⭐⭐⭐"
-              dataFinished="02/12/2023"
+              dateFinished="02/12/2023"
               review="I honestly don't know how to feel about this book. Just finished it a few minutes ago and the word the best describes my feelings would be disturbed. As I was reading the book, I was trying to pinpoint the murderer and try to figure out the conclusion of the bok, but I would have never guessed how it ended. Quite shocked right now but it makes sense. Reflecting back on different parts of the book, I now realized I was confused by some of the odd statements that were made by Theo as I wasn't sure why some of the pieces weren't connecting. Was lowkey creeped out at parts of the book, but it all makes sense now. The author did a spectacular job of leading me on to create possible versions of the ending and then they way the way the connected everything back together at the book was very well done. Realize the time switch at the end was what really allowed for all the pieces to fall into place. Would I recommend this book for anyone to read...no...not because it was bad but more so of how disturbed I'm feeling right now. The plot really does go to show how far people are blinded by their own ego and what they will do to maintain the love they feel in their life...but that fact that he destroyed 3 people's life at the end of the book is unfathonabme. There was something off about Theo from the beginning but didn't realize until how off until I was literally flipping through the last pages of the book."
               ghLink="https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14"
             />
