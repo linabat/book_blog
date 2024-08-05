@@ -1,0 +1,25 @@
+.filter-bar-group {
+    position: relative;
+  }
+  
+  .filter-select-wrapper {
+    position: relative;
+  }
+  
+  .custom-dropdown-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000; /* Adjust the color as needed */
+    pointer-events: none; /* Prevent clicking on the arrow */
+  }
+  
+  .filter-bar-group select {
+    padding-right: 30px; /* Add space for the arrow */
+  }
+  
