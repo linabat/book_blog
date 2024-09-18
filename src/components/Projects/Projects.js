@@ -53,6 +53,19 @@ import only_for_week from "../../Assets/Projects/only_for_week.jpg";
 import room from "../../Assets/Projects/room.jpg";
 import could_be_us from "../../Assets/Projects/could_be_us.jpg";
 import motor_man from "../../Assets/Projects/motor_man.jpg";
+import just_summer from "../../Assets/Projects/just_summer.jpg"
+import butterfly_project from "../../Assets/Projects/butterfly_project.jpg"
+import had_be_you from "../../Assets/Projects/had_be_you.jpg"
+import caught_up from "../../Assets/Projects/caught_up.jpg"
+import looking_alaska from "../../Assets/Projects/looking_alaska.jpg"
+import abed_salama from "../../Assets/Projects/abed_salama.jpg"
+import make_you_mine from "../../Assets/Projects/make_you_mine.jpg"
+import tragic from "../../Assets/Projects/tragic.jpg"
+import paradise_problem from "../../Assets/Projects/paradise_problem.jpg"
+import redeemed from "../../Assets/Projects/redeemed.jpg"
+import night_blossoms from "../../Assets/Projects/night_blossoms.jpg"
+import midnight_library from "../../Assets/Projects/midnight_library.jpg"
+import silent_waters from "../../Assets/Projects/silent_waters.jpg"
 
 import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
@@ -74,7 +87,8 @@ function Projects() {
     'Memoir',
     'Mystery',
     'Mental Health - Fiction',
-    'Psychological Thriller'
+    'Psychological Thriller',
+    'Magical Realism'
   ];
   const subtropes = [
     'Fake Relationship', 
@@ -855,6 +869,184 @@ function Projects() {
       review:"I honestly don't know how to feel about this book. Just finished it a few minutes ago and the word the best describes my feelings would be disturbed. As I was reading the book, I was trying to pinpoint the murderer and try to figure out the conclusion of the bok, but I would have never guessed how it ended. Quite shocked right now but it makes sense. Reflecting back on different parts of the book, I now realized I was confused by some of the odd statements that were made by Theo as I wasn't sure why some of the pieces weren't connecting. Was lowkey creeped out at parts of the book, but it all makes sense now. The author did a spectacular job of leading me on to create possible versions of the ending and then they way the way the connected everything back together at the book was very well done. Realize the time switch at the end was what really allowed for all the pieces to fall into place. Would I recommend this book for anyone to read...no...not because it was bad but more so of how disturbed I'm feeling right now. The plot really does go to show how far people are blinded by their own ego and what they will do to maintain the love they feel in their life...but that fact that he destroyed 3 people's life at the end of the book is unfathonabme. There was something off about Theo from the beginning but didn't realize until how off until I was literally flipping through the last pages of the book.",
       ghLink:"https://www.goodreads.com/book/show/54981009-the-last-thing-he-told-me?ref=nav_sb_ss_1_14",
       genre:"Psychological Thriller"
+    }, 
+
+    {
+      imgPath:just_summer,
+      isBlog:false,
+      title:"Just for the Summer",
+      author:"Abby Jimenez",
+      description:"Justin has a unique curse: every woman he dates finds her soul mate immediately after they break up. When he connects with Emma, a traveling nurse with a similar problem, they hatch a plan to date, break up, and cancel out each other's bad luck. What starts as a summer fling quickly becomes more complicated when they face unexpected challenges, including Emma’s overbearing mother and Justin taking care of his siblings. As they grow closer, they start to wonder if their supposed 'curses' were actually bringing them together all along.",
+      rating:"⭐⭐⭐",
+      dateFinished:"06/15/2024",
+      review:"This was a cute book! I liked the characters and plot development, though it was extremely repetitive and annoying at times. The character development for the heroine was alright, but ugh it was just annoyingly repetitive, like I'm being right now. I had higher expectations for Abby Jimenez as her book 'Yours Truly' was one of my top reads for quite some time, but this book simply not do it. Would recommend only if you have spare time and are able to push yourself to continue with reading through this book.",
+      ghLink:"https://www.goodreads.com/book/show/195820807-just-for-the-summer",
+      genre: "Romance",
+      subtrope: "Small Town Romance"
+    }, 
+
+    {
+      imgPath:butterfly_project,
+      isBlog:false,
+      title:"The Butterfly Project",
+      author:"Emma Scott",
+      description:"In *The Butterfly Project*, Zelda Rossi has spent a decade coping with guilt and grief by pouring her pain into a graphic novel about time-traveling vigilantes who stop tragic crimes. After facing rejection from comic book publishers, Zelda finds herself stranded in New York City, where she meets Beckett Copeland, a former convict battling his own demons after serving time for armed robbery. As they form an unexpected bond, Zelda and Beckett help each other confront their pasts, finding healing, forgiveness, and a chance at love. Together, they must decide whether to cling to their pain or embrace the possibility of a brighter future.",
+      rating:"⭐",
+      dateFinished:"06/26/2024",
+      review:"DNF - Awful writing. I've never stopped reading a book so fast...and I genuinely tried. Probably the worst writing I've read in a really long time. I had previously read another book by Emma Scott that has I actually enjoyed but that was years ago so I decided to give this book a try because of the ratings it had (idk why it even has these ratings). The writing was so repetivitve, describing things that are very straightforward already...I don't even know what else to say besides avoid this book.",
+      ghLink:"https://www.goodreads.com/book/show/33519394-the-butterfly-project",
+      genre: "Romance", 
+    }, 
+
+    {
+      imgPath: had_be_you,
+      isBlog:false,
+      title:"It Had to Be You",
+      author:"Susan Elizabeth Phillips",
+      description:"In this witty and entertaining story, *It Had to Be You*, Phoebe Somerville, a glamorous and unconventional woman who knows nothing about sports, unexpectedly inherits the Chicago Stars football team. As she tries to navigate the rough-and-tumble world of professional football, she butts heads with the team’s tough, no-nonsense head coach, Dan Calebow, who sees her as an unfit leader. Despite their clashes, sparks fly between Phoebe and Dan as they realize they might have more in common than they think—on and off the field. This is the kickoff to a beloved romance series where love and football collide.",
+      rating:"⭐",
+      dateFinished:"06/27/2024",
+      review:"DNF - I randomly found this book while digging through goodreads. It had plenty of good reviews, which had me shocked when I started reading the book and found that author wrote a scene of an older man (like in his 30s) have a sexual encounter with a 16 year old. Immediatetly once getting to this point, which mind you is less than 20 pages in the story, I put the book down and go back to goodreads to figure out why people liked this book so much and how they got past that scene. I read a few reviews and found out the girl wasn't actually 16 but pretended to be...regardless that is extremely weird and offputting. Genuinely confused how people who gave this book a high rating. Not only was the scene weird, but the writing was so EXTRA. It felt like was I reading really bad poetry, which so much useless descriptions and run on sentences. Don't read this book. ",
+      ghLink:"https://www.goodreads.com/book/show/73070.It_Had_to_Be_You",
+      genre: "Romance",
+      subtrope: "Workplace"
+    }, 
+
+    {
+      imgPath: caught_up,
+      isBlog:false,
+      title:"Caught Up",
+      author:"Liz Tomforde",
+      description:"In this heartwarming romance, Kai Rhodes, a single dad and Chicago’s star pitcher, struggles to juggle his career and fatherhood. After his coach hires Miller Montgomery—his wild, free-spirited daughter—as his son’s nanny, Kai is drawn to her despite their differences. Miller, a celebrated pastry chef on a break, never planned to stay in Chicago, but as sparks fly, she starts to question if her summer fling with Kai could turn into something lasting.",
+      rating:"⭐⭐⭐⭐",
+      dateFinished:"06/04/2024",
+      review:"Liz Tomforde's books are definitely a hit or miss for me. While I didn't enjoy her book Mile High at all, I quite honestly enjoyed reading this book. I thought the characters were refreshing and the dynamic between them was cute. I love how the heroine does have her own very prestine career and taking on a nannying gig was just for the fun of it rather than needing to rely on it for income. I also enjoyed the respect the characters had for one another. I really liked the hero and his protective side and how much character development he had throughout the novel. There isn't too much else to say other than I recommend this book.",
+      ghLink:"https://www.goodreads.com/book/show/199335111-caught-up",
+      genre: "Romance",
+      subtrope: "Children in Tow"
+    }, 
+
+    {
+      imgPath: looking_alaska,
+      isBlog:false,
+      title:"Looking for Alaska",
+      author:"John Green",
+      description:"In *Looking for Alaska*, Miles 'Pudge' Halter leaves behind his dull life in search of 'the Great Perhaps' at Culver Creek Boarding School. There, he meets Alaska Young—a beautiful, enigmatic, and self-destructive force of nature who captivates him completely. Alaska pulls Pudge into her wild world, transforming his once-safe life into a thrilling adventure. But after a tragic event, everything changes, and Pudge is left to grapple with questions of love, loss, and the meaning of life.",
+      rating:"⭐⭐⭐⭐",
+      dateFinished:"07/21/2024",
+      review:"I kid you not, this is a book that has been sitting on my TBR list for a few years now. However, my cousin absolutely loves this book and has the hard copy so she lent it to me. Going into this book, I quite honestly didn't know what to expect. I thought it would be more mystery and less teenage rebel vibe. Though the novel itself is relatively short, I also found the plot to be quite a bit stretched out as it felt like a lot of the details that were included were irrelevant and didn't progress the timeline of the story in any way. Yet, I did enjoy the characters (especially Alaska) and the author did a good job of accurately portraying a high school group of friends and the rebelness of it. I'm glad I did finally read this extremely popular classic and would recommend someone to read, if only just to stay in the loop of the literacy world.\n Side note - this was the review I texted my cousin right after finishing the book: 'ahh just finished looking for alaska\ni have no idea how to feel about— writing was phenomenal and when she died, ugh that hurt, but i feel like there was something missing …but idk maybe that’s the point — sorta wish there was more to the story or more info about alaska cause some parts of the plot towards the beginning didn’t seem to accelerate the narrative\noverall, righting is 3.75 rounded up to 4!'",
+      ghLink:"https://www.goodreads.com/book/show/99561.Looking_for_Alaska",
+      genre: "Romance",
+      subtrope: "Heart Breaking"
+    }, 
+
+    {
+      imgPath: abed_salama,
+      isBlog:false,
+      title:"A Day in the Life of Abed Salama: Anayomy of a Jersusalem Tragedy",
+      author:"Nathan Thrall",
+      description:"*A Day in the Life of Abed Salama*, the Pulitzer Prize-winning book by Nathan Thrall, presents a powerful and immersive account of a tragic accident outside Jerusalem. When five-year-old Milad Salama's school bus crashes, his father, Abed, embarks on a desperate and bureaucratic-filled journey to find his son amidst the chaos. As Abed navigates the obstacles of being Palestinian in a divided region, the narrative weaves together the intersecting stories of Jewish and Palestinian lives, offering a poignant exploration of the Israeli-Palestinian conflict and its human impact.",
+      rating:"⭐⭐⭐⭐⭐",
+      dateFinished:"08/11/2024",
+      review:"I've been raving about this book to everyone that I know. I will not lie, the writing did throw me off at the beginning, but I very quickly got used to it. It took me a couple of weeks to finish this book because simply reading it made me so sad. It made me sad that this book was written years ago yet were are the atrocities that Palestinians are experiencing are unfathomable, yet there are people that are purposefully going on their with their lives refusing to acknlowedge facts and history. This book was written by an American author and I very much enjoyed it simply because he layed down all the facts. It switches between the present and past to include a lot of history, policies, information about how colonialism has essentially lead to the awful tragedy that killed youngs kids and their teacher. It would be very easy for someone to pick up this book, having no knowledge the history of Palestine at all yet be able to side with those who have suffered due to colonialism. This was one of my first non fiction books that I've read and  I will not lie, it was a bit hard to keep track of all the history that was mentioned - yet that just goes to show that there is so much history that has occurred and it is necessary to read many sourcs to understand it. As I said in the beginning and I'll say again now, highly recommend that you read this non fiction novel to truly grasp what the lives of those who are suffering have been experiencing for years.",
+      ghLink:"https://www.goodreads.com/book/show/77920745-a-day-in-the-life-of-abed-salama",
+      genre: "Nonfiction",
+    }, 
+
+    {
+      imgPath: make_you_mine,
+      isBlog:false,
+      title:"Make You Mine",
+      author:"Laura Pavlov",
+      description:"In this sizzling romance, Make You Mine, Jace King, a rugged firefighter and single dad, is both a family friend and the boss of his new nanny. Despite the intense attraction between them, Jace insists that acting on their feelings is off-limits—especially given their age difference and his connection to her family. But as their chemistry becomes undeniable, the rules start to blur, and the heat between them threatens to ignite something far beyond their control. Will they stick to the rules or let their forbidden desire break free?",
+      rating:"⭐⭐⭐",
+      dateFinished:"08/15/2024",
+      review:"Hmmm there is not much to say about this book. I am writing the book nearly a month later and very little stands out about this book that I must remember. It was an age gap, children in tow trope and it met the expectations of these tropes to a satisfactory level, though nothing to rave about. With that being said, I just remember it being a long book and the dynamic of the characters were cute. That's it - to be honest, I don't think I would recommend this book.",
+      ghLink:"https://www.goodreads.com/book/show/61329225-make-you-mine",
+      genre: "Romance",
+      subtrope: "Children in Tow"
+    }, 
+
+    {
+      imgPath: tragic,
+      isBlog:false,
+      title:"Tragic",
+      author:"Devney Perry",
+      description:"In Tragic, Kaine Reynolds has retreated into isolation after a family tragedy, determined to face his grief alone. But when Piper Campbell, his determined new neighbor, arrives in Montana seeking a fresh start after a painful divorce, she’s not deterred by his gruff exterior. Intent on a no-strings fling to heal from her past, Piper sees Kaine as the perfect distraction. However, their unexpected affair leads to an unforeseen twist that threatens both their hearts and forces them to confront their deepest fears.",
+      rating:"⭐⭐⭐⭐⭐",
+      dateFinished:"08/17/2024",
+      review:"Ugh this book made me so happy. I was in the mood to read a book with a sad character, happy ending and this once was absolutely perfect. I loved how the dynamic between the characters started immediately and developed consistently as the book progressed. The hero's love language is acts of service and I absolutely love that, considering he was still able to show his emotions despite being alone for a few years. I also very much enjoyed the start of the book and how it didn't take a significantly long time to figure out what was happening. And even knowing what led the hero to be at his state when then main characters met, there were little bits of information provided after the big reveal. I really enjoyed the heroine's personality throughout the book and that she was definitely a boss women. Though the way they come together was due to each of their unfortunate circumstances, I definitely enjoyed the growth of their relationship and how the flaws of it were also included too. I loved the book and it's definitely one of my top 5 favorite books of the year. Highly highly recommend.",
+      ghLink:"https://www.goodreads.com/book/show/38317385-tragic",
+      genre:"Romance",
+      subtrope:"Heart Breaking"
+    }, 
+
+    {
+      imgPath: paradise_problem,
+      isBlog:false,
+      title:"The Paradise Problem",
+      author:"Christina Lauren",
+      description:"In The Paradise Problem by Christina Lauren, buttoned-up heir Liam “West” Weston is poised to inherit a massive fortune from his family's grocery empire—but only if he’s been happily married for five years. His solution? To enlist his free-spirited ex-wife, Anna Green, to help him meet the family’s demands and secure the inheritance. While the fake marriage begins as a strategic move, Liam finds himself grappling with deeper feelings as he witnesses Anna’s genuine heart amidst the cutthroat world of wealth. As the line between pretense and reality blurs, Liam must decide if the cost of his inheritance is worth risking true love.",
+      rating:"⭐⭐⭐⭐",
+      dateFinished:"08/22/2024",
+      review:"This book was pretty good. There honestly isn't too much to say besides it was a fun read and interesting to see how richy rich people are so careless and oblivious about everything that the majority of society face daily. The dynamic between the two main characters was fun and very refreshing to hear. I also really enjoyed how the authors brought in family struggles and internal debates with ones selves, just showing how no family is perfect. There really isn't much else to say. I would recommend this book, especially if you want to feel like your on private island witnessing the life of the filthy rich and seeing how everything is just image.",
+      ghLink:"https://www.goodreads.com/book/show/199797582-the-paradise-problem",
+      genre:"Romance",
+      subtrope:"Fake Relationship"
+    }, 
+
+    {
+      imgPath: redeemed,
+      isBlog:false,
+      title:"Redeemed",
+      author:"Lauren Asher",
+      description:"In *Redeemed*, Santiago Alatorre’s career collapses after a major scandal, forcing him into hiding. His life takes a turn when Chloe Carter, who’s on a quest to find her estranged father in Italy, ends up as his fake girlfriend. What begins as a temporary arrangement to manage Santiago’s problems soon evolves into a complicated and passionate connection. As their pretense grows more convincing, so do their feelings for each other, but Santiago’s own issues threaten to keep them apart. In this steamy standalone from the Dirty Air world, both must navigate their tangled emotions and past mistakes to find a path to true love.",
+      rating:"⭐⭐",
+      dateFinished:"08/30/2024",
+      review:"I went into this book with very expectation and I very disappointed. I was looking for a book that was similar to Archer's Voice, and found this book repeatedly being recommend on Tik Tok, so I was very much drawn to read it. However, the thoughts of the characters were so incredibly repeatitive that I think a third of the book could have been cut out if the repition were to be taken out. The characters were cool and there was definitely a lot of potential for this to be a great novel, but it just simply was not. Quite honestly I read this book a week ago and don't remember much of it because it was just simply that insignificant. Looking back now, I don't think I ever actually finished the full book, I got maybe 3/4 of the way and then just couldn't do it anymore, and this was me trying incredibly hard to keep going. Anyway, long story short, I don't recommend this book at all.",
+      ghLink:"https://www.goodreads.com/book/show/206024568-redeemed",
+      genre:"Romance",
+      subtrope:"Fake Relationship"
+    }, 
+
+    {
+      imgPath: night_blossoms,
+      isBlog:false,
+      title:"The Night Blossoms",
+      author:"Leylah Attar",
+      description:"In Leylah Attar's The Night Blossoms, Vee Roza's life takes a dark turn when her husband, Rafael, goes missing following a heated argument. As Vee grapples with the dangers of a high-risk pregnancy, she is thrust into a perilous web of deceit. With secrets of her own and mounting suspicion, Vee must navigate a treacherous path to uncover the truth about Rafael’s disappearance. Is it the ultimate act of betrayal or a selfless sacrifice? This gripping romantic suspense thriller keeps readers on the edge of their seats until the chilling, unexpected conclusion.",
+      rating:"⭐⭐⭐",
+      dateFinished:"09/02/2024",
+      review:"I was super excited excited when I saw this book as a greatly enjoyed 'Paper Swans' which was written by the same author (though quite honestly, I don't remember that book at all). The first half of the book was alright as it kept me engaged enough to want to continue reading to see how the past and the present versions clash together. However, I was greatly disappointed with the plot twist - there was simply just to much foreshadowing involved that made it less of a suprise and more of an expectation. Once I reached the plot twist, I realized that as I read this book, I was more interested in figuring out the timeline of their relationship and they mystery of it rather than solving the disappearance of the husband. Once the mystery was solved, it just seemed far too dramatic and unrealistic, making it much more enjoyable and even boring. Though moving beyond the plot, I definitely do enjoy the writing style of the author. With all that being said, I wouldn't recommend reading this book unless you have energy to spare as you force yourself through some parts of it.",
+      ghLink:"https://www.goodreads.com/book/show/61387800-the-night-blossoms",
+      genre:"Mystery"
+    },
+
+    {
+      imgPath: midnight_library,
+      isBlog:false,
+      title:"The Midnight Library ",
+      author:"Matt Haig",
+      description:"In *The Midnight Library* by Matt Haig, Nora Seed finds herself in a magical library between life and death, where each book offers her a chance to explore lives she might have lived had she made different choices. As she revisits her regrets and tests out various paths, Nora discovers that not all her imagined lives are as perfect as she hoped. With the library and her own existence at risk, she must confront the ultimate question: what is the best way to live?",
+      rating:"⭐⭐⭐⭐",
+      dateFinished:"09/06/2024",
+      review:"This book is truly one of those books that make you think about the life you are living. At some point, every one of us has thought of how our life would have been interest had we made this decision and this book truly puts all of those 'what if's' into perspective. Nora isn't a memorable character in any way whatsoever, but she is a relatable one. Her thought process as she continues exploring the different lives that she's had the opportunity to live seems like a natural though process where a lot of self reflection and realization happens, applicabale to anyone. This is the first time had a super strong urge to grab a highlight and simply high light all the qutoes that provide a fresh perspective about the choices we make and how they effect us. Though the ending was not surprising, the full circle moment does all for us to see the full character development at its finest. I would recommend this book for anyone who is interested in just thinking about the effects of their different choices and how their life would look like.",
+      ghLink:"https://www.goodreads.com/book/show/52578297-the-midnight-library",
+      genre:"Magical Realism"
+    }, 
+
+    {
+      imgPath: silent_waters,
+      isBlog:false,
+      title:"The Silent Waters",
+      author:"Brittainy Cherry",
+      description:"The Silent Waters is a poignant story about the powerful impact of moments in our lives. As the narrator reflects on a life marked by both heartache and hope, we see how Brooks Griffin was a beacon during her darkest times. Their relationship, filled with both love and pain, becomes a journey through life's most significant moments—those that define us, challenge us, and ultimately shape our destiny. This narrative explores themes of self-love, loss, and the intricate tapestry of human connection.",
+      rating:"⭐⭐⭐",
+      dateFinished:"09/09/2024",
+      review:"I started reading this book my first year of university and it's only fitting that I completely it to it's entirety right before my last year of undergrad. I have read most of the books in this series (Elements) and remember really enjoying everything about the novels, so when I saw that I hadn't marked this book as read on Goodreads, I immediately started reading it. A few pages into the book, I realized it was the book that I never finished. I was super excited and ready to get through it, but I was unfortuately disappointed. The writing and the plot of the book were great and it wasn't repetitive, but wow was it long. It was unnecessarily long for the content that it held. It felt like there was little to no character development around the middle part of the book and it took time for the development to kick back in. With that being said, I also was ironically bothered by how the ending seemed so rushed. One second Maggie was mute and the next she is delivering these relatively long monologues. For how long she was mute, the reaction of herself speaking as well as Brooks reaction (her boyfriend) was extremely underminded. Also, so much of the book was talking about her trauma and her inner thoughts and how they limited her from going out of her safe zone, however, when she actually did make that effort it seems unrealistically smooth. I wish Cherry included internal dialogue of the battle she still went through or how she adjusted because it just didn't make quite much sense to me. Finally, by the end of the book, the main characters were in their late 20s, yet it still felt like they were acting quite a bit younger - this simply could have addressed by decreasing the time jump. Anyway, long story (not short), I would recommend this book but don't go in with extremely high expectations.",
+      ghLink:"https://www.goodreads.com/book/show/29963453-the-silent-waters",
+      genre:"Romance",
+      subtrope:"Heart Breaking"
     }
   ];
   
