@@ -858,19 +858,8 @@ function Projects() {
     }
   ];
   
-
-  // Function to handle genre selection
-  const handleGenreChange = (genre) => {
-    setSelectedGenre(genre);
-  };
-
-  // Function to handle subtrope selection
-  const handleSubtropeChange = (subtrope) => {
-    setSelectedSubtrope(subtrope);
-  };
-
-  // Function to handle sorting
-  const handleSort = (criteria) => {
+   // Function to handle sorting
+   const handleSort = (criteria) => {
     setSortCriteria(criteria); // Update the sort criteria
   };
 
@@ -907,27 +896,27 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-          <Col md={4}>
-            <FilterBar
-              genres={genres}
-              subtropes={subtropes}
-              selectedGenre={selectedGenre}
-              selectedSubtrope={selectedSubtrope}
-              handleGenreChange={handleGenreChange}
-              handleSubtropeChange={handleSubtropeChange}
-            />
-          </Col>
-          <Col md={4} className="text-center">
-            <Dropdown onSelect={handleSort}>
-              <Dropdown.Toggle variant="success" id="dropdown-basic">
-                Sort by
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item eventKey="date">Date Finished</Dropdown.Item>
-                <Dropdown.Item eventKey="rating">Rating</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </Col>
+            <Col md={4}>
+              <FilterBar
+                genres={genres}
+                subtropes={subtropes}
+                selectedGenre={selectedGenre}
+                selectedSubtrope={selectedSubtrope}
+                onGenreChange={setSelectedGenre} // Fixing the prop name
+                onSubtropeChange={setSelectedSubtrope} // Fixing the prop name
+              />
+            </Col>
+            <Col md={4}>
+              <Dropdown onSelect={handleSort}>
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  Sort by
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item eventKey="date">Date Finished</Dropdown.Item>
+                  <Dropdown.Item eventKey="rating">Rating</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </Col>
         </Row>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           {sortedBooks.map((book, index) => (

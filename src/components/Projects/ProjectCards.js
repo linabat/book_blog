@@ -6,6 +6,9 @@ import { BsGithub } from "react-icons/bs";
 
 import { useState } from 'react';
 import Modal from "react-bootstrap/Modal";
+import FilterBar from './FilterBar';
+import { Container, Row, Col, Dropdown } from 'react-bootstrap'; // Your UI components
+
 
 
 function ProjectCards(props) {

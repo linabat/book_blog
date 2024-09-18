@@ -43,17 +43,6 @@ function Home2() {
               </i>
               </div>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
               The goal of this website is to share my book updates with you all. I've been wanting to creating this page for 
               quite sometime at this point and have finally done it! 🎉 As an avid reader, I've read so many books at this point.
               I will share my raw thoughts, opinions, and ratings of the books I've read. Unfortunatley, this list right now is cut 
