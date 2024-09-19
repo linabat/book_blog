@@ -30,5 +30,5 @@ Server/config.js
 
 /dataeda/credentials.json
 eda/credentials.json
-eda/explore_data.ipynb
+# eda/explore_data.ipynb
 # src/Assets/Projects
