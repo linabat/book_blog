@@ -66,6 +66,9 @@ import redeemed from "../../Assets/Projects/redeemed.jpg"
 import night_blossoms from "../../Assets/Projects/night_blossoms.jpg"
 import midnight_library from "../../Assets/Projects/midnight_library.jpg"
 import silent_waters from "../../Assets/Projects/silent_waters.jpg"
+import drago from "../../Assets/Projects/drago.jpg"
+import dark_romeo from "../../Assets/Projects/dark_romeo.jpg"
+
 
 import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
@@ -97,14 +100,15 @@ function Projects() {
     "Bestfriend's Brother", 
     "Second Chance Love", 
     "Mafia", 
-    "Slowburn", 
+    "Slow Burn", 
     "Workplace", 
     "Children in Tow",
     "Heart Breaking",
     "Dark",
     "Age Gap",
     "Sports", 
-    "Misc."
+    "Misc.",
+    "Arranged Marriage"
   ];
 
   const books = [
@@ -512,7 +516,7 @@ function Projects() {
       review:"This was my second reading this book and I was not dissapointed...not shocking thoughh because I am very much obssesed with Marianna Zapata and her books. Re-reading this again, I would give it a 4 stars just cause I think it dragged out way too long and then I almost and to force myself to continue at some points just because the slow burn was too much of a slow burn. Regardless of this, I enjoyed rereading this book, something I don't usually do, but desperate times call for desperate measures (my streak of find good books has been an all time low). I loved the characters in this book, Rip and Luna and really enjoyed their dynamic and how a lot of the book actually focused on the growth of their relationship together. Also the side characters of this book were pretty good. It's one of those kind of books that you can easily visualize in your head while reading which is the best part of reading. I do wish that some of the plot was dedicated towards the development of the relationship between Luna and her sisters but that's okay. Favorite part of the book is when Luna was able to help Rip get out of the aftershock after the car accident. Another favorite moment was when Rip helped Luna and stayed at her house when her cousin broke into her house and wrecked it. Definitley recommend as a first time read.",
       ghLink:"https://www.goodreads.com/book/show/42883009-luna-and-the-lie?ref=nav_sb_ss_1_16",
       genre:'Romance',
-      subtrope:"Slowburn"
+      subtrope:"Slow Burn"
     }, 
 
     {
@@ -705,7 +709,7 @@ function Projects() {
       description:"Two individuals with complicated lives and their own secrets collide, igniting a passionate and dangerous connection that threatens to unravel everything they've been hiding.",
       rating:"⭐",
       dateFinished:"3/20/2022",
-      review:"DNF - This book was very weird. He laid eyes on her, starting talking down to her and being extremely misogynistic and literally just took it in. I barely started reading the book but she talked about being alpha women which I’m all about, but they are subject to the wants of the hero which is extremely weird. Long story short, I started reading the book and didn't like it so I skipped to the end to see what happens and thank God I didn’t read the complete book. I was extremely uncomfortable in one of the last scenes as I understood the parts that I missed and how she became his carrier (which makes no sense whatsoever) and really weird. It was paranormal and made me stressed, which is not a fun feeling especially when I’m taking time to read the book to distress myself from the craziness in myself. So no thank you.",
+      review:"DNF - This book was very weird. He laid eyes on her, starting talking down to her and being extremely misogynistic and literally just took it in. I barely started reading the book but she talked about being alpha women which I’m all about, but they are subject to the wants of the hero which is extremely weird. Long story short, I started reading the book and didn't like it so I skipped to the end to see what happens and thank God I didn’t read the complete book. I was extremely uncomfortable in one of the last scenes as she became his carrier (which makes no sense whatsoever) and really weird. It was paranormal and made me stressed, which is not a fun feeling especially when I’m taking time to read the book to de-stress myself. So no thank you.",
       ghLink:"https://www.goodreads.com/book/show/60307542-his-pretty-little-burden?ref=nav_sb_ss_1_25",
       genre:'Romance',
       subtrope:"Dark"
@@ -896,6 +900,7 @@ function Projects() {
       review:"DNF - Awful writing. I've never stopped reading a book so fast...and I genuinely tried. Probably the worst writing I've read in a really long time. I had previously read another book by Emma Scott that has I actually enjoyed but that was years ago so I decided to give this book a try because of the ratings it had (idk why it even has these ratings). The writing was so repetivitve, describing things that are very straightforward already...I don't even know what else to say besides avoid this book.",
       ghLink:"https://www.goodreads.com/book/show/33519394-the-butterfly-project",
       genre: "Romance", 
+      subtrope: "Misc."
     }, 
 
     {
@@ -1047,6 +1052,34 @@ function Projects() {
       ghLink:"https://www.goodreads.com/book/show/29963453-the-silent-waters",
       genre:"Romance",
       subtrope:"Heart Breaking"
+    }, 
+
+    {
+      imgPath: drago,
+      isBlog:false,
+      title:"Drago",
+      author:"Sarah Brianne",
+      description:"In a gritty love story, Drago, the Caruso family's fierce protector, and Katarina, a vulnerable Luciano, become entangled in a perilous marriage fueled by vengeance and blood ties, a union fraught with tension, as they grapple with their roles as a vengeful bodyguard and the devil's daughter.",
+      rating:"⭐⭐",
+      dateFinished:"12/14/2022",
+      review:"Did not like this book at all. There was potential but the author did not meet it. This was the first book I read from the series, sixth book in series, and it was very much meh. There was a lot of repetition about the Kat needing to befriend Drago in order for her family to win, but it made no sense. The progression between the hero and heroines was too fast and one simple action of affection done and suddenly they were in love....what??The one thing I liked about this book was the writing style of the author, which was descriptive and poetic, although a bit much at times. However, her writing style did not provide the ability to follow along with the plot easily and then the book just suddenly ends way too fast...idk if this because there are continuations to the seires or if the author simply got bored of her own writing...like I did. Short, not worth your time kind of book.",
+      ghLink:"https://www.goodreads.com/book/show/40622772-drago",
+      genre:"Romance",
+      subtrope:"Mafia"
+    }, 
+
+    {
+      imgPath: dark_romeo,
+      isBlog:false,
+      title:"My Dark Romeo",
+      author:"Parker S. Huntington, L.J. Shen",
+      description:"A fairy tale takes a dark turn as a reluctant Juliet refuses to marry her vengeful Romeo, setting the stage for a thrilling and unexpected story where Juliet refuses to be a pawn in his game and seeks to rewrite her own destiny.",
+      rating:"⭐",
+      dateFinished:"07/25/2023",
+      review:"DNF - I'm ashamed to say I read as much as I did...half of the book. This was probably one of the worst books I read this year. I started this book with high expectations; I previously enjoyed both Shen and Huntington's Books so I didn't think there would be a reason that a collobaration of their book could be bad...I was incredibly wrong - thie book sucked so much. I kept reading to purely believing that it could get better or something interesting would happen (and because of pure boredom)...once again I was wrong. Absolutely horrible. The main characters were so childish, especially the heroine - literally not knowing how to act or think. The guy, Romeo, is just so annoying. The writing was also absolutely attrocious...was so repetivie, included unecessary information and went absolutely no where. I would give this book to my worst enemy to read...so they too can suffer.",
+      ghLink:"https://www.goodreads.com/book/show/123008168-my-dark-romeo",
+      genre:"Romance",
+      subtrope:"Mafia"
     }
   ];
   

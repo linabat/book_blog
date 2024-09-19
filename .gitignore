@@ -28,7 +28,7 @@ yarn-error.log*
 Server/node_modules
 Server/config.js
 
-eda/credentials.json
 /dataeda/credentials.json
 eda/credentials.json
+eda/explore_data.ipynb
 # src/Assets/Projects

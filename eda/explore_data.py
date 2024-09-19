@@ -16,10 +16,10 @@ creds = service_account.Credentials.from_service_account_file(
 service = build('sheets', 'v4', credentials=creds)
 
 # The ID of the Google Sheet
-SPREADSHEET_ID = '1kUkSqMbtD8tZcs6WqCQZnw7H3dyWA0vAon0FTGcJgpM'
+SPREADSHEET_ID = '1wRpqF_aaRh9SVh7NTkeyF84Ripzh45pfy3DWYpMgnwI'
 
 # Define the range of cells to read (e.g., 'Sheet1!A1:D100')
-RANGE_NAME = 'Sheet1!A1:D100'
+RANGE_NAME = 'Sheet1!A:H'
 
 # Call the Sheets API to fetch data from the sheet
 sheet = service.spreadsheets()
