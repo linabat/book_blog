@@ -44,7 +44,7 @@ import sparrow from "../../Assets/Projects/sparrow.jpeg";
 import one_only from "../../Assets/Projects/one_only.jpeg";
 import your_intolerable from "../../Assets/Projects/youre_intolerable.jpeg";
 import falling_embers from "../../Assets/Projects/falling_embers.jpeg";
-import mile_high from "../../Assets/Projects/mile_high.jpeg";jgit 
+import mile_high from "../../Assets/Projects/mile_high.jpeg";
 import before_let_go from "../../Assets/Projects/before_let_go.jpeg";
 import seven_husbands from "../../Assets/Projects/seven_husbands.jpeg";
 import nora_script from "../../Assets/Projects/nora_script.jpeg";

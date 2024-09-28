@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import GeneralStats from "./GeneralStats";
 
 function About() {
   return (
@@ -34,10 +34,10 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Over the <strong className="purple">Years </strong>
         </h1>
 
-        <Techstack />
+        <GeneralStats />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
