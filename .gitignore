@@ -33,3 +33,7 @@ Server/config.js
 eda/credentials.json
 # eda/explore_data.ipynb
 # src/Assets/Projects
+
+.ipynb_checkpoints
+
+__pycache__/
